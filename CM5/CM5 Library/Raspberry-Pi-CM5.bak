@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
-			(at -11.43 106.68 0)
+			(at 0 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Raspberry Pi CM5 carrier board. Footprints options of 0mm clearance and 2.5mm clearance."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Use 10164227-1001A1RLF for short stackup hieght. Use 10164227-1004A1RLF for tall stackup height. "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Raspberry-Pi-CM5:RaspberryPi-CM5-Carrier-*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3715,7 +3733,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10164228-1001A1RLF use for compute module connectors"
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "10164228-1001A1RLF use for compute module connectors"
 			(at 0 0 0)
 			(effects
 				(font

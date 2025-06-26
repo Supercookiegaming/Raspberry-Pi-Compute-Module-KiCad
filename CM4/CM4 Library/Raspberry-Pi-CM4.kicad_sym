@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM4 carrier board. options for both mounting hieghts."
+		(property "Description" "Raspberry Pi CM4 carrier board.  Footprints options of 0mm clearance and 1.5mm clearance."
 			(at 0 0 0)
 			(effects
 				(font

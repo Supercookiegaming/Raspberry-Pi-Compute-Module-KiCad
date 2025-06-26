@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Raspberry Pi CM4 carrier board. options for both mounting hieghts."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Use DF40C-100DS-0.4v for short stackup hieght. Use DF40HC(3.0)-100DS-0.4v for tall stackup height. "
 			(at 0 0 0)
 			(effects
 				(font
