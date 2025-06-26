@@ -51,8 +51,8 @@
 		)
 		(symbol "RaspberryPi-CM4-Carrier_0_1"
 			(rectangle
-				(start -29.21 95.25)
-				(end -68.58 -96.52)
+				(start -41.91 95.25)
+				(end -81.28 -96.52)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,8 +62,8 @@
 				)
 			)
 			(rectangle
-				(start 68.58 95.25)
-				(end 29.21 -96.52)
+				(start 80.01 95.25)
+				(end 40.64 -96.52)
 				(stroke
 					(width 0)
 					(type default)
@@ -75,7 +75,7 @@
 		)
 		(symbol "RaspberryPi-CM4-Carrier_1_1"
 			(pin bidirectional line
-				(at -72.39 92.71 0)
+				(at -85.09 92.71 0)
 				(length 3.81)
 				(name "HDMI0_SCL"
 					(effects
@@ -93,7 +93,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 88.9 0)
+				(at -85.09 88.9 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -111,7 +111,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 85.09 0)
+				(at -85.09 85.09 0)
 				(length 3.81)
 				(name "DSI1_D3_P"
 					(effects
@@ -129,7 +129,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 81.28 0)
+				(at -85.09 81.28 0)
 				(length 3.81)
 				(name "DSI1_D3_N"
 					(effects
@@ -147,7 +147,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 77.47 0)
+				(at -85.09 77.47 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -165,7 +165,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 73.66 0)
+				(at -85.09 73.66 0)
 				(length 3.81)
 				(name "HDMI0_CLK_N"
 					(effects
@@ -183,7 +183,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 69.85 0)
+				(at -85.09 69.85 0)
 				(length 3.81)
 				(name "HDMI0_CLK_P"
 					(effects
@@ -201,7 +201,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 66.04 0)
+				(at -85.09 66.04 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -219,7 +219,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 62.23 0)
+				(at -85.09 62.23 0)
 				(length 3.81)
 				(name "HDMI0_TX0_N"
 					(effects
@@ -237,7 +237,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 58.42 0)
+				(at -85.09 58.42 0)
 				(length 3.81)
 				(name "HDMI0_TX0_P"
 					(effects
@@ -255,7 +255,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 54.61 0)
+				(at -85.09 54.61 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -273,7 +273,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 50.8 0)
+				(at -85.09 50.8 0)
 				(length 3.81)
 				(name "HDMI0_TX1_N"
 					(effects
@@ -291,7 +291,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 46.99 0)
+				(at -85.09 46.99 0)
 				(length 3.81)
 				(name "HDMI0_TX1_P"
 					(effects
@@ -309,7 +309,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 43.18 0)
+				(at -85.09 43.18 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -327,7 +327,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 39.37 0)
+				(at -85.09 39.37 0)
 				(length 3.81)
 				(name "HDMI0_TX2_N"
 					(effects
@@ -345,7 +345,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 35.56 0)
+				(at -85.09 35.56 0)
 				(length 3.81)
 				(name "HDMI0_TX2_P"
 					(effects
@@ -363,7 +363,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 31.75 0)
+				(at -85.09 31.75 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -381,7 +381,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 27.94 0)
+				(at -85.09 27.94 0)
 				(length 3.81)
 				(name "HDMI1_CLK_N"
 					(effects
@@ -399,7 +399,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 24.13 0)
+				(at -85.09 24.13 0)
 				(length 3.81)
 				(name "HDMI1_CLK_P"
 					(effects
@@ -417,7 +417,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 20.32 0)
+				(at -85.09 20.32 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -435,7 +435,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 16.51 0)
+				(at -85.09 16.51 0)
 				(length 3.81)
 				(name "HDMI1_TX0_N"
 					(effects
@@ -453,7 +453,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 12.7 0)
+				(at -85.09 12.7 0)
 				(length 3.81)
 				(name "HDMI1_TX0_P"
 					(effects
@@ -471,7 +471,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 8.89 0)
+				(at -85.09 8.89 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -489,7 +489,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 5.08 0)
+				(at -85.09 5.08 0)
 				(length 3.81)
 				(name "HDMI1_TX1_N"
 					(effects
@@ -507,7 +507,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 1.27 0)
+				(at -85.09 1.27 0)
 				(length 3.81)
 				(name "HDMI1_TX1_P"
 					(effects
@@ -525,7 +525,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -2.54 0)
+				(at -85.09 -2.54 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -543,7 +543,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -6.35 0)
+				(at -85.09 -6.35 0)
 				(length 3.81)
 				(name "HDMI1_TX2_N"
 					(effects
@@ -561,7 +561,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -10.16 0)
+				(at -85.09 -10.16 0)
 				(length 3.81)
 				(name "HDMI1_TX2_P"
 					(effects
@@ -579,7 +579,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -13.97 0)
+				(at -85.09 -13.97 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -597,7 +597,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -17.78 0)
+				(at -85.09 -17.78 0)
 				(length 3.81)
 				(name "CAM0_C_P"
 					(effects
@@ -615,7 +615,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -21.59 0)
+				(at -85.09 -21.59 0)
 				(length 3.81)
 				(name "CAM0_C_N"
 					(effects
@@ -633,7 +633,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -25.4 0)
+				(at -85.09 -25.4 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -651,7 +651,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -29.21 0)
+				(at -85.09 -29.21 0)
 				(length 3.81)
 				(name "CAM0_D1_P"
 					(effects
@@ -669,7 +669,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -33.02 0)
+				(at -85.09 -33.02 0)
 				(length 3.81)
 				(name "CAM0_D1_N"
 					(effects
@@ -687,7 +687,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -36.83 0)
+				(at -85.09 -36.83 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -705,7 +705,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -40.64 0)
+				(at -85.09 -40.64 0)
 				(length 3.81)
 				(name "CAM0_D0_N"
 					(effects
@@ -723,7 +723,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -44.45 0)
+				(at -85.09 -44.45 0)
 				(length 3.81)
 				(name "CAM0_D0_N"
 					(effects
@@ -741,7 +741,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -48.26 0)
+				(at -85.09 -48.26 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -759,7 +759,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -52.07 0)
+				(at -85.09 -52.07 0)
 				(length 3.81)
 				(name "PCIe_TX_N"
 					(effects
@@ -777,7 +777,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -55.88 0)
+				(at -85.09 -55.88 0)
 				(length 3.81)
 				(name "PCIe_TX_P"
 					(effects
@@ -795,7 +795,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -59.69 0)
+				(at -85.09 -59.69 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -813,7 +813,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -63.5 0)
+				(at -85.09 -63.5 0)
 				(length 3.81)
 				(name "PCIe_RX_N"
 					(effects
@@ -831,7 +831,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -67.31 0)
+				(at -85.09 -67.31 0)
 				(length 3.81)
 				(name "PCIe_RX_P"
 					(effects
@@ -849,7 +849,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -71.12 0)
+				(at -85.09 -71.12 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -867,7 +867,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -74.93 0)
+				(at -85.09 -74.93 0)
 				(length 3.81)
 				(name "PCIe_CLK_N"
 					(effects
@@ -885,7 +885,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -78.74 0)
+				(at -85.09 -78.74 0)
 				(length 3.81)
 				(name "PCIe_CLK_P"
 					(effects
@@ -903,7 +903,7 @@
 				)
 			)
 			(pin power_out line
-				(at -72.39 -82.55 0)
+				(at -85.09 -82.55 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -921,7 +921,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -72.39 -86.36 0)
+				(at -85.09 -86.36 0)
 				(length 3.81)
 				(name "Reserved"
 					(effects
@@ -939,7 +939,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -72.39 -90.17 0)
+				(at -85.09 -90.17 0)
 				(length 3.81)
 				(name "Reserved"
 					(effects
@@ -957,7 +957,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -72.39 -93.98 0)
+				(at -85.09 -93.98 0)
 				(length 3.81)
 				(name "PCIe_CLK_nREQ"
 					(effects
@@ -975,7 +975,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 92.71 180)
+				(at -38.1 92.71 180)
 				(length 3.81)
 				(name "HDMI0_SDA"
 					(effects
@@ -993,7 +993,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 88.9 180)
+				(at -38.1 88.9 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1011,7 +1011,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 85.09 180)
+				(at -38.1 85.09 180)
 				(length 3.81)
 				(name "DSI1_D2_P"
 					(effects
@@ -1029,7 +1029,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 81.28 180)
+				(at -38.1 81.28 180)
 				(length 3.81)
 				(name "DSI1_D2_N"
 					(effects
@@ -1047,7 +1047,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 77.47 180)
+				(at -38.1 77.47 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1065,7 +1065,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 73.66 180)
+				(at -38.1 73.66 180)
 				(length 3.81)
 				(name "DSI1_C_N"
 					(effects
@@ -1083,7 +1083,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 69.85 180)
+				(at -38.1 69.85 180)
 				(length 3.81)
 				(name "DSI1_C_N"
 					(effects
@@ -1101,7 +1101,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 66.04 180)
+				(at -38.1 66.04 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1119,7 +1119,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 62.23 180)
+				(at -38.1 62.23 180)
 				(length 3.81)
 				(name "DSI1_D1_P"
 					(effects
@@ -1137,7 +1137,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 58.42 180)
+				(at -38.1 58.42 180)
 				(length 3.81)
 				(name "DSI1_D1_N"
 					(effects
@@ -1155,7 +1155,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 54.61 180)
+				(at -38.1 54.61 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1173,7 +1173,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 50.8 180)
+				(at -38.1 50.8 180)
 				(length 3.81)
 				(name "DSI1_D0_P"
 					(effects
@@ -1191,7 +1191,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 46.99 180)
+				(at -38.1 46.99 180)
 				(length 3.81)
 				(name "DSI1_D0_N"
 					(effects
@@ -1209,7 +1209,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 43.18 180)
+				(at -38.1 43.18 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1227,7 +1227,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 39.37 180)
+				(at -38.1 39.37 180)
 				(length 3.81)
 				(name "DSI0_C_P"
 					(effects
@@ -1245,7 +1245,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 35.56 180)
+				(at -38.1 35.56 180)
 				(length 3.81)
 				(name "DSI0_C_N"
 					(effects
@@ -1263,7 +1263,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 31.75 180)
+				(at -38.1 31.75 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1281,7 +1281,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 27.94 180)
+				(at -38.1 27.94 180)
 				(length 3.81)
 				(name "DSI0_D1_P"
 					(effects
@@ -1299,7 +1299,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 24.13 180)
+				(at -38.1 24.13 180)
 				(length 3.81)
 				(name "DSI0_D1_N"
 					(effects
@@ -1317,7 +1317,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 20.32 180)
+				(at -38.1 20.32 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1335,7 +1335,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 16.51 180)
+				(at -38.1 16.51 180)
 				(length 3.81)
 				(name "DSI0_D0_P"
 					(effects
@@ -1353,7 +1353,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 12.7 180)
+				(at -38.1 12.7 180)
 				(length 3.81)
 				(name "DSI0_D0_N"
 					(effects
@@ -1371,7 +1371,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 8.89 180)
+				(at -38.1 8.89 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1389,7 +1389,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 5.08 180)
+				(at -38.1 5.08 180)
 				(length 3.81)
 				(name "HDMI0_HOTPLUG"
 					(effects
@@ -1407,7 +1407,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 1.27 180)
+				(at -38.1 1.27 180)
 				(length 3.81)
 				(name "HDMI0_CEC"
 					(effects
@@ -1425,7 +1425,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -2.54 180)
+				(at -38.1 -2.54 180)
 				(length 3.81)
 				(name "HDMI1_CEC"
 					(effects
@@ -1443,7 +1443,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -6.35 180)
+				(at -38.1 -6.35 180)
 				(length 3.81)
 				(name "HDMI1_SCL"
 					(effects
@@ -1461,7 +1461,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -10.16 180)
+				(at -38.1 -10.16 180)
 				(length 3.81)
 				(name "HDMI1_SDA"
 					(effects
@@ -1479,7 +1479,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -13.97 180)
+				(at -38.1 -13.97 180)
 				(length 3.81)
 				(name "HDMI1_HOTPLUG"
 					(effects
@@ -1497,7 +1497,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -17.78 180)
+				(at -38.1 -17.78 180)
 				(length 3.81)
 				(name "CAM1_D3_P"
 					(effects
@@ -1515,7 +1515,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -21.59 180)
+				(at -38.1 -21.59 180)
 				(length 3.81)
 				(name "CAM1_D3_N"
 					(effects
@@ -1533,7 +1533,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 -25.4 180)
+				(at -38.1 -25.4 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1551,7 +1551,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -29.21 180)
+				(at -38.1 -29.21 180)
 				(length 3.81)
 				(name "CAM1_D2_P"
 					(effects
@@ -1569,7 +1569,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -33.02 180)
+				(at -38.1 -33.02 180)
 				(length 3.81)
 				(name "CAM1_D2_N"
 					(effects
@@ -1587,7 +1587,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 -36.83 180)
+				(at -38.1 -36.83 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1605,7 +1605,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -40.64 180)
+				(at -38.1 -40.64 180)
 				(length 3.81)
 				(name "CAM1_C_P"
 					(effects
@@ -1623,7 +1623,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -44.45 180)
+				(at -38.1 -44.45 180)
 				(length 3.81)
 				(name "CAM1_C_N"
 					(effects
@@ -1641,7 +1641,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 -48.26 180)
+				(at -38.1 -48.26 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1659,7 +1659,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -52.07 180)
+				(at -38.1 -52.07 180)
 				(length 3.81)
 				(name "CAM1_D1_P"
 					(effects
@@ -1677,7 +1677,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -55.88 180)
+				(at -38.1 -55.88 180)
 				(length 3.81)
 				(name "CAM1_D1_N"
 					(effects
@@ -1695,7 +1695,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 -59.69 180)
+				(at -38.1 -59.69 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1713,7 +1713,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -63.5 180)
+				(at -38.1 -63.5 180)
 				(length 3.81)
 				(name "CAM1_D0_P"
 					(effects
@@ -1731,7 +1731,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -67.31 180)
+				(at -38.1 -67.31 180)
 				(length 3.81)
 				(name "CAM1_D0_N"
 					(effects
@@ -1749,7 +1749,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 -71.12 180)
+				(at -38.1 -71.12 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1767,7 +1767,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -74.93 180)
+				(at -38.1 -74.93 180)
 				(length 3.81)
 				(name "VDAC_COMP"
 					(effects
@@ -1785,7 +1785,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -78.74 180)
+				(at -38.1 -78.74 180)
 				(length 3.81)
 				(name "PCIe_nRST"
 					(effects
@@ -1803,7 +1803,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 -82.55 180)
+				(at -38.1 -82.55 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1821,7 +1821,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -86.36 180)
+				(at -38.1 -86.36 180)
 				(length 3.81)
 				(name "USB_P"
 					(effects
@@ -1839,7 +1839,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -90.17 180)
+				(at -38.1 -90.17 180)
 				(length 3.81)
 				(name "USB_N"
 					(effects
@@ -1857,7 +1857,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -93.98 180)
+				(at -38.1 -93.98 180)
 				(length 3.81)
 				(name "USB_OTG_ID"
 					(effects
@@ -1875,7 +1875,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 92.71 0)
+				(at 36.83 92.71 0)
 				(length 3.81)
 				(name "nEXTRST"
 					(effects
@@ -1893,7 +1893,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 88.9 0)
+				(at 36.83 88.9 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1911,7 +1911,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 85.09 0)
+				(at 36.83 85.09 0)
 				(length 3.81)
 				(name "AnalogIP0"
 					(effects
@@ -1929,7 +1929,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 81.28 0)
+				(at 36.83 81.28 0)
 				(length 3.81)
 				(name "AnalogIP1"
 					(effects
@@ -1947,7 +1947,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 77.47 0)
+				(at 36.83 77.47 0)
 				(length 3.81)
 				(name "RUN_PG"
 					(effects
@@ -1965,7 +1965,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 73.66 0)
+				(at 36.83 73.66 0)
 				(length 3.81)
 				(name "CM4_1.8V_(Output)"
 					(effects
@@ -1983,7 +1983,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 69.85 0)
+				(at 36.83 69.85 0)
 				(length 3.81)
 				(name "CM4_1.8V_(Output)"
 					(effects
@@ -2001,7 +2001,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 66.04 0)
+				(at 36.83 66.04 0)
 				(length 3.81)
 				(name "CM4_3.3V_(Output)"
 					(effects
@@ -2019,7 +2019,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 62.23 0)
+				(at 36.83 62.23 0)
 				(length 3.81)
 				(name "CM4_3.3V_(Output)"
 					(effects
@@ -2037,7 +2037,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 58.42 0)
+				(at 36.83 58.42 0)
 				(length 3.81)
 				(name "SDA0"
 					(effects
@@ -2055,7 +2055,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 54.61 0)
+				(at 36.83 54.61 0)
 				(length 3.81)
 				(name "SCL0"
 					(effects
@@ -2073,7 +2073,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 50.8 0)
+				(at 36.83 50.8 0)
 				(length 3.81)
 				(name "GPIO_VREF"
 					(effects
@@ -2091,7 +2091,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 46.99 0)
+				(at 36.83 46.99 0)
 				(length 3.81)
 				(name "Reserved"
 					(effects
@@ -2109,7 +2109,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 43.18 0)
+				(at 36.83 43.18 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2127,7 +2127,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 39.37 0)
+				(at 36.83 39.37 0)
 				(length 3.81)
 				(name "SD_DAT6"
 					(effects
@@ -2145,7 +2145,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 35.56 0)
+				(at 36.83 35.56 0)
 				(length 3.81)
 				(name "SD_DAT7"
 					(effects
@@ -2163,7 +2163,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 31.75 0)
+				(at 36.83 31.75 0)
 				(length 3.81)
 				(name "SD_DAT4"
 					(effects
@@ -2181,7 +2181,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 27.94 0)
+				(at 36.83 27.94 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2199,7 +2199,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 24.13 0)
+				(at 36.83 24.13 0)
 				(length 3.81)
 				(name "SD_DAT5"
 					(effects
@@ -2217,7 +2217,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 20.32 0)
+				(at 36.83 20.32 0)
 				(length 3.81)
 				(name "SD_CMD"
 					(effects
@@ -2235,7 +2235,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 16.51 0)
+				(at 36.83 16.51 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2253,7 +2253,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 12.7 0)
+				(at 36.83 12.7 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -2271,7 +2271,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 8.89 0)
+				(at 36.83 8.89 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -2289,7 +2289,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 5.08 0)
+				(at 36.83 5.08 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -2307,7 +2307,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 1.27 0)
+				(at 36.83 1.27 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2325,7 +2325,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -2.54 0)
+				(at 36.83 -2.54 0)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -2343,7 +2343,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -6.35 0)
+				(at 36.83 -6.35 0)
 				(length 3.81)
 				(name "GPIO27"
 					(effects
@@ -2361,7 +2361,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -10.16 0)
+				(at 36.83 -10.16 0)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -2379,7 +2379,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -13.97 0)
+				(at 36.83 -13.97 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -2397,7 +2397,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -17.78 0)
+				(at 36.83 -17.78 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2415,7 +2415,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -21.59 0)
+				(at 36.83 -21.59 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -2433,7 +2433,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -25.4 0)
+				(at 36.83 -25.4 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -2451,7 +2451,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -29.21 0)
+				(at 36.83 -29.21 0)
 				(length 3.81)
 				(name "ID_SD"
 					(effects
@@ -2469,7 +2469,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -33.02 0)
+				(at 36.83 -33.02 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -2487,7 +2487,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -36.83 0)
+				(at 36.83 -36.83 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2505,7 +2505,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -40.64 0)
+				(at 36.83 -40.64 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -2523,7 +2523,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -44.45 0)
+				(at 36.83 -44.45 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -2541,7 +2541,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -48.26 0)
+				(at 36.83 -48.26 0)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -2559,7 +2559,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -52.07 0)
+				(at 36.83 -52.07 0)
 				(length 3.81)
 				(name "GPIO26"
 					(effects
@@ -2577,7 +2577,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -55.88 0)
+				(at 36.83 -55.88 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2595,7 +2595,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -59.69 0)
+				(at 36.83 -59.69 0)
 				(length 3.81)
 				(name "EEPROM_nWP"
 					(effects
@@ -2613,7 +2613,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -63.5 0)
+				(at 36.83 -63.5 0)
 				(length 3.81)
 				(name "Ethernet_SYNC_OUT"
 					(effects
@@ -2631,7 +2631,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -67.31 0)
+				(at 36.83 -67.31 0)
 				(length 3.81)
 				(name "Ethernet_SYNC_IN"
 					(effects
@@ -2649,7 +2649,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -71.12 0)
+				(at 36.83 -71.12 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2667,7 +2667,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -74.93 0)
+				(at 36.83 -74.93 0)
 				(length 3.81)
 				(name "Ethernet_Pair0_P"
 					(effects
@@ -2685,7 +2685,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -78.74 0)
+				(at 36.83 -78.74 0)
 				(length 3.81)
 				(name "Ethernet_Pair2_N"
 					(effects
@@ -2703,7 +2703,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -82.55 0)
+				(at 36.83 -82.55 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2721,7 +2721,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -86.36 0)
+				(at 36.83 -86.36 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_N"
 					(effects
@@ -2739,7 +2739,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -90.17 0)
+				(at 36.83 -90.17 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_P"
 					(effects
@@ -2757,7 +2757,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -93.98 0)
+				(at 36.83 -93.98 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2775,7 +2775,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 92.71 180)
+				(at 83.82 92.71 180)
 				(length 3.81)
 				(name "GLOBAL_EN"
 					(effects
@@ -2793,7 +2793,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 88.9 180)
+				(at 83.82 88.9 180)
 				(length 3.81)
 				(name "Camera_GPIO"
 					(effects
@@ -2811,7 +2811,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 85.09 180)
+				(at 83.82 85.09 180)
 				(length 3.81)
 				(name "PI_LED_nPWR"
 					(effects
@@ -2829,7 +2829,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 81.28 180)
+				(at 83.82 81.28 180)
 				(length 3.81)
 				(name "nRPIBOOT"
 					(effects
@@ -2847,7 +2847,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 77.47 180)
+				(at 83.82 77.47 180)
 				(length 3.81)
 				(name "BT_nDisable"
 					(effects
@@ -2865,7 +2865,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 73.66 180)
+				(at 83.82 73.66 180)
 				(length 3.81)
 				(name "WL_nDisable"
 					(effects
@@ -2883,7 +2883,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 69.85 180)
+				(at 83.82 69.85 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2901,7 +2901,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 66.04 180)
+				(at 83.82 66.04 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2919,7 +2919,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 62.23 180)
+				(at 83.82 62.23 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2937,7 +2937,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 58.42 180)
+				(at 83.82 58.42 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2955,7 +2955,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 54.61 180)
+				(at 83.82 54.61 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2973,7 +2973,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 50.8 180)
+				(at 83.82 50.8 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2991,7 +2991,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 46.99 180)
+				(at 83.82 46.99 180)
 				(length 3.81)
 				(name "SD+PWR_ON"
 					(effects
@@ -3009,7 +3009,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 43.18 180)
+				(at 83.82 43.18 180)
 				(length 3.81)
 				(name "SD_VDD_OVERRIDE"
 					(effects
@@ -3027,7 +3027,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 39.37 180)
+				(at 83.82 39.37 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3045,7 +3045,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 35.56 180)
+				(at 83.82 35.56 180)
 				(length 3.81)
 				(name "SD_DAT2"
 					(effects
@@ -3063,7 +3063,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 31.75 180)
+				(at 83.82 31.75 180)
 				(length 3.81)
 				(name "SD_DAT1"
 					(effects
@@ -3081,7 +3081,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 27.94 180)
+				(at 83.82 27.94 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3099,7 +3099,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 24.13 180)
+				(at 83.82 24.13 180)
 				(length 3.81)
 				(name "SD_DAT0"
 					(effects
@@ -3117,7 +3117,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 20.32 180)
+				(at 83.82 20.32 180)
 				(length 3.81)
 				(name "SD_DAT3"
 					(effects
@@ -3135,7 +3135,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 16.51 180)
+				(at 83.82 16.51 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3153,7 +3153,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 12.7 180)
+				(at 83.82 12.7 180)
 				(length 3.81)
 				(name "SD_CLK"
 					(effects
@@ -3171,7 +3171,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 8.89 180)
+				(at 83.82 8.89 180)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -3189,7 +3189,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 5.08 180)
+				(at 83.82 5.08 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3207,7 +3207,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 1.27 180)
+				(at 83.82 1.27 180)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -3225,7 +3225,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -2.54 180)
+				(at 83.82 -2.54 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -3243,7 +3243,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -6.35 180)
+				(at 83.82 -6.35 180)
 				(length 3.81)
 				(name "GPIO23"
 					(effects
@@ -3261,7 +3261,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -10.16 180)
+				(at 83.82 -10.16 180)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -3279,7 +3279,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 -13.97 180)
+				(at 83.82 -13.97 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3297,7 +3297,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -17.78 180)
+				(at 83.82 -17.78 180)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -3315,7 +3315,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -21.59 180)
+				(at 83.82 -21.59 180)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -3333,7 +3333,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -25.4 180)
+				(at 83.82 -25.4 180)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -3351,9 +3351,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -29.21 180)
+				(at 83.82 -29.21 180)
 				(length 3.81)
-				(name "ID_SD"
+				(name "ID_SC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3369,7 +3369,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 -33.02 180)
+				(at 83.82 -33.02 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3387,7 +3387,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -36.83 180)
+				(at 83.82 -36.83 180)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -3405,7 +3405,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -40.64 180)
+				(at 83.82 -40.64 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -3423,7 +3423,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -44.45 180)
+				(at 83.82 -44.45 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -3441,7 +3441,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -48.26 180)
+				(at 83.82 -48.26 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -3459,7 +3459,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 -52.07 180)
+				(at 83.82 -52.07 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3477,7 +3477,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 -55.88 180)
+				(at 83.82 -55.88 180)
 				(length 3.81)
 				(name "Pi_nLED_Activity"
 					(effects
@@ -3495,7 +3495,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 -59.69 180)
+				(at 83.82 -59.69 180)
 				(length 3.81)
 				(name "Ethernet_nLED1"
 					(effects
@@ -3513,7 +3513,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 -63.5 180)
+				(at 83.82 -63.5 180)
 				(length 3.81)
 				(name "Ethernet_nLED2"
 					(effects
@@ -3531,7 +3531,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 -67.31 180)
+				(at 83.82 -67.31 180)
 				(length 3.81)
 				(name "Ethernet_nLED3"
 					(effects
@@ -3549,7 +3549,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 -71.12 180)
+				(at 83.82 -71.12 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3567,7 +3567,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -74.93 180)
+				(at 83.82 -74.93 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_P"
 					(effects
@@ -3585,7 +3585,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -78.74 180)
+				(at 83.82 -78.74 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_N"
 					(effects
@@ -3603,7 +3603,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 -82.55 180)
+				(at 83.82 -82.55 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3621,7 +3621,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -86.36 180)
+				(at 83.82 -86.36 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_N"
 					(effects
@@ -3639,7 +3639,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -90.17 180)
+				(at 83.82 -90.17 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_P"
 					(effects
@@ -3657,7 +3657,7 @@
 				)
 			)
 			(pin power_out line
-				(at 72.39 -93.98 180)
+				(at 83.82 -93.98 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3697,7 +3697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raspberry-Pi-CM4:RaspberryPi-CM4-Module"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3706,7 +3706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Use DF40C-100DP-0.4V for Compute Module connectors"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3726,8 +3726,8 @@
 		)
 		(symbol "RaspberryPi-CM4-Module_0_1"
 			(rectangle
-				(start -68.58 99.06)
-				(end -29.21 -100.33)
+				(start -81.28 99.06)
+				(end -41.91 -100.33)
 				(stroke
 					(width 0)
 					(type default)
@@ -3737,8 +3737,8 @@
 				)
 			)
 			(rectangle
-				(start 29.21 99.06)
-				(end 68.58 -100.33)
+				(start 41.91 99.06)
+				(end 81.28 -100.33)
 				(stroke
 					(width 0)
 					(type default)
@@ -3750,7 +3750,7 @@
 		)
 		(symbol "RaspberryPi-CM4-Module_1_1"
 			(pin no_connect line
-				(at -72.39 96.52 0)
+				(at -85.09 96.52 0)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -3768,7 +3768,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -72.39 92.71 0)
+				(at -85.09 92.71 0)
 				(length 3.81)
 				(name "HDMI0_SCL"
 					(effects
@@ -3786,7 +3786,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 88.9 0)
+				(at -85.09 88.9 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3804,7 +3804,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 85.09 0)
+				(at -85.09 85.09 0)
 				(length 3.81)
 				(name "DSI1_D3_P"
 					(effects
@@ -3822,7 +3822,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 81.28 0)
+				(at -85.09 81.28 0)
 				(length 3.81)
 				(name "DSI1_D3_N"
 					(effects
@@ -3840,7 +3840,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 77.47 0)
+				(at -85.09 77.47 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3858,7 +3858,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 73.66 0)
+				(at -85.09 73.66 0)
 				(length 3.81)
 				(name "HDMI0_CLK_N"
 					(effects
@@ -3876,7 +3876,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 69.85 0)
+				(at -85.09 69.85 0)
 				(length 3.81)
 				(name "HDMI0_CLK_P"
 					(effects
@@ -3894,7 +3894,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 66.04 0)
+				(at -85.09 66.04 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3912,7 +3912,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 62.23 0)
+				(at -85.09 62.23 0)
 				(length 3.81)
 				(name "HDMI0_TX0_N"
 					(effects
@@ -3930,7 +3930,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 58.42 0)
+				(at -85.09 58.42 0)
 				(length 3.81)
 				(name "HDMI0_TX0_P"
 					(effects
@@ -3948,7 +3948,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 54.61 0)
+				(at -85.09 54.61 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3966,7 +3966,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 50.8 0)
+				(at -85.09 50.8 0)
 				(length 3.81)
 				(name "HDMI0_TX1_N"
 					(effects
@@ -3984,7 +3984,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 46.99 0)
+				(at -85.09 46.99 0)
 				(length 3.81)
 				(name "HDMI0_TX1_P"
 					(effects
@@ -4002,7 +4002,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 43.18 0)
+				(at -85.09 43.18 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4020,7 +4020,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 39.37 0)
+				(at -85.09 39.37 0)
 				(length 3.81)
 				(name "HDMI0_TX2_N"
 					(effects
@@ -4038,7 +4038,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 35.56 0)
+				(at -85.09 35.56 0)
 				(length 3.81)
 				(name "HDMI0_TX2_P"
 					(effects
@@ -4056,7 +4056,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 31.75 0)
+				(at -85.09 31.75 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4074,7 +4074,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 27.94 0)
+				(at -85.09 27.94 0)
 				(length 3.81)
 				(name "HDMI1_CLK_N"
 					(effects
@@ -4092,7 +4092,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 24.13 0)
+				(at -85.09 24.13 0)
 				(length 3.81)
 				(name "HDMI1_CLK_P"
 					(effects
@@ -4110,7 +4110,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 20.32 0)
+				(at -85.09 20.32 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4128,7 +4128,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 16.51 0)
+				(at -85.09 16.51 0)
 				(length 3.81)
 				(name "HDMI1_TX0_N"
 					(effects
@@ -4146,7 +4146,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 12.7 0)
+				(at -85.09 12.7 0)
 				(length 3.81)
 				(name "HDMI1_TX0_P"
 					(effects
@@ -4164,7 +4164,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 8.89 0)
+				(at -85.09 8.89 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4182,7 +4182,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 5.08 0)
+				(at -85.09 5.08 0)
 				(length 3.81)
 				(name "HDMI1_TX1_N"
 					(effects
@@ -4200,7 +4200,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 1.27 0)
+				(at -85.09 1.27 0)
 				(length 3.81)
 				(name "HDMI1_TX1_P"
 					(effects
@@ -4218,7 +4218,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -2.54 0)
+				(at -85.09 -2.54 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4236,7 +4236,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -6.35 0)
+				(at -85.09 -6.35 0)
 				(length 3.81)
 				(name "HDMI1_TX2_N"
 					(effects
@@ -4254,7 +4254,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -10.16 0)
+				(at -85.09 -10.16 0)
 				(length 3.81)
 				(name "HDMI1_TX2_P"
 					(effects
@@ -4272,7 +4272,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -13.97 0)
+				(at -85.09 -13.97 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4290,7 +4290,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -17.78 0)
+				(at -85.09 -17.78 0)
 				(length 3.81)
 				(name "CAM0_C_P"
 					(effects
@@ -4308,7 +4308,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -21.59 0)
+				(at -85.09 -21.59 0)
 				(length 3.81)
 				(name "CAM0_C_N"
 					(effects
@@ -4326,7 +4326,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -25.4 0)
+				(at -85.09 -25.4 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4344,7 +4344,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -29.21 0)
+				(at -85.09 -29.21 0)
 				(length 3.81)
 				(name "CAM0_D1_P"
 					(effects
@@ -4362,7 +4362,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -33.02 0)
+				(at -85.09 -33.02 0)
 				(length 3.81)
 				(name "CAM0_D1_N"
 					(effects
@@ -4380,7 +4380,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -36.83 0)
+				(at -85.09 -36.83 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4398,7 +4398,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -40.64 0)
+				(at -85.09 -40.64 0)
 				(length 3.81)
 				(name "CAM0_D0_N"
 					(effects
@@ -4416,7 +4416,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -44.45 0)
+				(at -85.09 -44.45 0)
 				(length 3.81)
 				(name "CAM0_D0_N"
 					(effects
@@ -4434,7 +4434,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -48.26 0)
+				(at -85.09 -48.26 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4452,7 +4452,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -52.07 0)
+				(at -85.09 -52.07 0)
 				(length 3.81)
 				(name "PCIe_TX_N"
 					(effects
@@ -4470,7 +4470,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -55.88 0)
+				(at -85.09 -55.88 0)
 				(length 3.81)
 				(name "PCIe_TX_P"
 					(effects
@@ -4488,7 +4488,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -59.69 0)
+				(at -85.09 -59.69 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4506,7 +4506,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -63.5 0)
+				(at -85.09 -63.5 0)
 				(length 3.81)
 				(name "PCIe_RX_N"
 					(effects
@@ -4524,7 +4524,7 @@
 				)
 			)
 			(pin input line
-				(at -72.39 -67.31 0)
+				(at -85.09 -67.31 0)
 				(length 3.81)
 				(name "PCIe_RX_P"
 					(effects
@@ -4542,7 +4542,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -71.12 0)
+				(at -85.09 -71.12 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4560,7 +4560,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -74.93 0)
+				(at -85.09 -74.93 0)
 				(length 3.81)
 				(name "PCIe_CLK_N"
 					(effects
@@ -4578,7 +4578,7 @@
 				)
 			)
 			(pin output line
-				(at -72.39 -78.74 0)
+				(at -85.09 -78.74 0)
 				(length 3.81)
 				(name "PCIe_CLK_P"
 					(effects
@@ -4596,7 +4596,7 @@
 				)
 			)
 			(pin power_in line
-				(at -72.39 -82.55 0)
+				(at -85.09 -82.55 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4614,7 +4614,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -72.39 -86.36 0)
+				(at -85.09 -86.36 0)
 				(length 3.81)
 				(name "Reserved"
 					(effects
@@ -4632,7 +4632,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -72.39 -90.17 0)
+				(at -85.09 -90.17 0)
 				(length 3.81)
 				(name "Reserved"
 					(effects
@@ -4650,7 +4650,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -72.39 -93.98 0)
+				(at -85.09 -93.98 0)
 				(length 3.81)
 				(name "PCIe_CLK_nREQ"
 					(effects
@@ -4668,7 +4668,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -72.39 -97.79 0)
+				(at -85.09 -97.79 0)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -4686,7 +4686,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 96.52 180)
+				(at -38.1 96.52 180)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -4704,7 +4704,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 92.71 180)
+				(at -38.1 92.71 180)
 				(length 3.81)
 				(name "HDMI0_SDA"
 					(effects
@@ -4722,7 +4722,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 88.9 180)
+				(at -38.1 88.9 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4740,7 +4740,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 85.09 180)
+				(at -38.1 85.09 180)
 				(length 3.81)
 				(name "DSI1_D2_P"
 					(effects
@@ -4758,7 +4758,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 81.28 180)
+				(at -38.1 81.28 180)
 				(length 3.81)
 				(name "DSI1_D2_N"
 					(effects
@@ -4776,7 +4776,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 77.47 180)
+				(at -38.1 77.47 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4794,7 +4794,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 73.66 180)
+				(at -38.1 73.66 180)
 				(length 3.81)
 				(name "DSI1_C_N"
 					(effects
@@ -4812,7 +4812,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 69.85 180)
+				(at -38.1 69.85 180)
 				(length 3.81)
 				(name "DSI1_C_N"
 					(effects
@@ -4830,7 +4830,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 66.04 180)
+				(at -38.1 66.04 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4848,7 +4848,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 62.23 180)
+				(at -38.1 62.23 180)
 				(length 3.81)
 				(name "DSI1_D1_P"
 					(effects
@@ -4866,7 +4866,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 58.42 180)
+				(at -38.1 58.42 180)
 				(length 3.81)
 				(name "DSI1_D1_N"
 					(effects
@@ -4884,7 +4884,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 54.61 180)
+				(at -38.1 54.61 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4902,7 +4902,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 50.8 180)
+				(at -38.1 50.8 180)
 				(length 3.81)
 				(name "DSI1_D0_P"
 					(effects
@@ -4920,7 +4920,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 46.99 180)
+				(at -38.1 46.99 180)
 				(length 3.81)
 				(name "DSI1_D0_N"
 					(effects
@@ -4938,7 +4938,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 43.18 180)
+				(at -38.1 43.18 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4956,7 +4956,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 39.37 180)
+				(at -38.1 39.37 180)
 				(length 3.81)
 				(name "DSI0_C_P"
 					(effects
@@ -4974,7 +4974,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 35.56 180)
+				(at -38.1 35.56 180)
 				(length 3.81)
 				(name "DSI0_C_N"
 					(effects
@@ -4992,7 +4992,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 31.75 180)
+				(at -38.1 31.75 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5010,7 +5010,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 27.94 180)
+				(at -38.1 27.94 180)
 				(length 3.81)
 				(name "DSI0_D1_P"
 					(effects
@@ -5028,7 +5028,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 24.13 180)
+				(at -38.1 24.13 180)
 				(length 3.81)
 				(name "DSI0_D1_N"
 					(effects
@@ -5046,7 +5046,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 20.32 180)
+				(at -38.1 20.32 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5064,7 +5064,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 16.51 180)
+				(at -38.1 16.51 180)
 				(length 3.81)
 				(name "DSI0_D0_P"
 					(effects
@@ -5082,7 +5082,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 12.7 180)
+				(at -38.1 12.7 180)
 				(length 3.81)
 				(name "DSI0_D0_N"
 					(effects
@@ -5100,7 +5100,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 8.89 180)
+				(at -38.1 8.89 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5118,7 +5118,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 5.08 180)
+				(at -38.1 5.08 180)
 				(length 3.81)
 				(name "HDMI0_HOTPLUG"
 					(effects
@@ -5136,7 +5136,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 1.27 180)
+				(at -38.1 1.27 180)
 				(length 3.81)
 				(name "HDMI0_CEC"
 					(effects
@@ -5154,7 +5154,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -2.54 180)
+				(at -38.1 -2.54 180)
 				(length 3.81)
 				(name "HDMI1_CEC"
 					(effects
@@ -5172,7 +5172,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -6.35 180)
+				(at -38.1 -6.35 180)
 				(length 3.81)
 				(name "HDMI1_SCL"
 					(effects
@@ -5190,7 +5190,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -10.16 180)
+				(at -38.1 -10.16 180)
 				(length 3.81)
 				(name "HDMI1_SDA"
 					(effects
@@ -5208,7 +5208,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -13.97 180)
+				(at -38.1 -13.97 180)
 				(length 3.81)
 				(name "HDMI1_HOTPLUG"
 					(effects
@@ -5226,7 +5226,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -17.78 180)
+				(at -38.1 -17.78 180)
 				(length 3.81)
 				(name "CAM1_D3_P"
 					(effects
@@ -5244,7 +5244,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -21.59 180)
+				(at -38.1 -21.59 180)
 				(length 3.81)
 				(name "CAM1_D3_N"
 					(effects
@@ -5262,7 +5262,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -25.4 180)
+				(at -38.1 -25.4 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5280,7 +5280,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -29.21 180)
+				(at -38.1 -29.21 180)
 				(length 3.81)
 				(name "CAM1_D2_P"
 					(effects
@@ -5298,7 +5298,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -33.02 180)
+				(at -38.1 -33.02 180)
 				(length 3.81)
 				(name "CAM1_D2_N"
 					(effects
@@ -5316,7 +5316,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -36.83 180)
+				(at -38.1 -36.83 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5334,7 +5334,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -40.64 180)
+				(at -38.1 -40.64 180)
 				(length 3.81)
 				(name "CAM1_C_P"
 					(effects
@@ -5352,7 +5352,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -44.45 180)
+				(at -38.1 -44.45 180)
 				(length 3.81)
 				(name "CAM1_C_N"
 					(effects
@@ -5370,7 +5370,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -48.26 180)
+				(at -38.1 -48.26 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5388,7 +5388,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -52.07 180)
+				(at -38.1 -52.07 180)
 				(length 3.81)
 				(name "CAM1_D1_P"
 					(effects
@@ -5406,7 +5406,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -55.88 180)
+				(at -38.1 -55.88 180)
 				(length 3.81)
 				(name "CAM1_D1_N"
 					(effects
@@ -5424,7 +5424,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -59.69 180)
+				(at -38.1 -59.69 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5442,7 +5442,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -63.5 180)
+				(at -38.1 -63.5 180)
 				(length 3.81)
 				(name "CAM1_D0_P"
 					(effects
@@ -5460,7 +5460,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -67.31 180)
+				(at -38.1 -67.31 180)
 				(length 3.81)
 				(name "CAM1_D0_N"
 					(effects
@@ -5478,7 +5478,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -71.12 180)
+				(at -38.1 -71.12 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5496,7 +5496,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -74.93 180)
+				(at -38.1 -74.93 180)
 				(length 3.81)
 				(name "VDAC_COMP"
 					(effects
@@ -5514,7 +5514,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -78.74 180)
+				(at -38.1 -78.74 180)
 				(length 3.81)
 				(name "PCIe_nRST"
 					(effects
@@ -5532,7 +5532,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -82.55 180)
+				(at -38.1 -82.55 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5550,7 +5550,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -86.36 180)
+				(at -38.1 -86.36 180)
 				(length 3.81)
 				(name "USB_P"
 					(effects
@@ -5568,7 +5568,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -90.17 180)
+				(at -38.1 -90.17 180)
 				(length 3.81)
 				(name "USB_N"
 					(effects
@@ -5586,7 +5586,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -93.98 180)
+				(at -38.1 -93.98 180)
 				(length 3.81)
 				(name "USB_OTG_ID"
 					(effects
@@ -5604,7 +5604,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 -97.79 180)
+				(at -38.1 -97.79 180)
 				(length 3.81)
 				(name "S5"
 					(effects
@@ -5622,7 +5622,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 96.52 0)
+				(at 38.1 96.52 0)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -5640,7 +5640,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 92.71 0)
+				(at 38.1 92.71 0)
 				(length 3.81)
 				(name "nEXTRST"
 					(effects
@@ -5658,7 +5658,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 88.9 0)
+				(at 38.1 88.9 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5676,7 +5676,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 85.09 0)
+				(at 38.1 85.09 0)
 				(length 3.81)
 				(name "AnalogIP0"
 					(effects
@@ -5694,7 +5694,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 81.28 0)
+				(at 38.1 81.28 0)
 				(length 3.81)
 				(name "AnalogIP1"
 					(effects
@@ -5712,7 +5712,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 77.47 0)
+				(at 38.1 77.47 0)
 				(length 3.81)
 				(name "RUN_PG"
 					(effects
@@ -5730,7 +5730,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 73.66 0)
+				(at 38.1 73.66 0)
 				(length 3.81)
 				(name "CM4_1.8V_(Output)"
 					(effects
@@ -5748,7 +5748,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 69.85 0)
+				(at 38.1 69.85 0)
 				(length 3.81)
 				(name "CM4_1.8V_(Output)"
 					(effects
@@ -5766,7 +5766,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 66.04 0)
+				(at 38.1 66.04 0)
 				(length 3.81)
 				(name "CM4_3.3V_(Output)"
 					(effects
@@ -5784,7 +5784,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 62.23 0)
+				(at 38.1 62.23 0)
 				(length 3.81)
 				(name "CM4_3.3V_(Output)"
 					(effects
@@ -5802,7 +5802,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 58.42 0)
+				(at 38.1 58.42 0)
 				(length 3.81)
 				(name "SDA0"
 					(effects
@@ -5820,7 +5820,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 54.61 0)
+				(at 38.1 54.61 0)
 				(length 3.81)
 				(name "SCL0"
 					(effects
@@ -5838,7 +5838,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 50.8 0)
+				(at 38.1 50.8 0)
 				(length 3.81)
 				(name "GPIO_VREF"
 					(effects
@@ -5856,7 +5856,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 46.99 0)
+				(at 38.1 46.99 0)
 				(length 3.81)
 				(name "Reserved"
 					(effects
@@ -5874,7 +5874,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 43.18 0)
+				(at 38.1 43.18 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5892,7 +5892,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 39.37 0)
+				(at 38.1 39.37 0)
 				(length 3.81)
 				(name "SD_DAT6"
 					(effects
@@ -5910,7 +5910,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 35.56 0)
+				(at 38.1 35.56 0)
 				(length 3.81)
 				(name "SD_DAT7"
 					(effects
@@ -5928,7 +5928,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 31.75 0)
+				(at 38.1 31.75 0)
 				(length 3.81)
 				(name "SD_DAT4"
 					(effects
@@ -5946,7 +5946,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 27.94 0)
+				(at 38.1 27.94 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5964,7 +5964,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 24.13 0)
+				(at 38.1 24.13 0)
 				(length 3.81)
 				(name "SD_DAT5"
 					(effects
@@ -5982,7 +5982,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 20.32 0)
+				(at 38.1 20.32 0)
 				(length 3.81)
 				(name "SD_CMD"
 					(effects
@@ -6000,7 +6000,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 16.51 0)
+				(at 38.1 16.51 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6018,7 +6018,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 12.7 0)
+				(at 38.1 12.7 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -6036,7 +6036,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 8.89 0)
+				(at 38.1 8.89 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -6054,7 +6054,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 5.08 0)
+				(at 38.1 5.08 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -6072,7 +6072,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 1.27 0)
+				(at 38.1 1.27 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6090,7 +6090,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -2.54 0)
+				(at 38.1 -2.54 0)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -6108,7 +6108,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -6.35 0)
+				(at 38.1 -6.35 0)
 				(length 3.81)
 				(name "GPIO27"
 					(effects
@@ -6126,7 +6126,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -10.16 0)
+				(at 38.1 -10.16 0)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -6144,7 +6144,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -13.97 0)
+				(at 38.1 -13.97 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -6162,7 +6162,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -17.78 0)
+				(at 38.1 -17.78 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6180,7 +6180,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -21.59 0)
+				(at 38.1 -21.59 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -6198,7 +6198,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -25.4 0)
+				(at 38.1 -25.4 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -6216,7 +6216,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -29.21 0)
+				(at 38.1 -29.21 0)
 				(length 3.81)
 				(name "ID_SD"
 					(effects
@@ -6234,7 +6234,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -33.02 0)
+				(at 38.1 -33.02 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -6252,7 +6252,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -36.83 0)
+				(at 38.1 -36.83 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6270,7 +6270,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -40.64 0)
+				(at 38.1 -40.64 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -6288,7 +6288,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -44.45 0)
+				(at 38.1 -44.45 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -6306,7 +6306,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -48.26 0)
+				(at 38.1 -48.26 0)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -6324,7 +6324,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -52.07 0)
+				(at 38.1 -52.07 0)
 				(length 3.81)
 				(name "GPIO26"
 					(effects
@@ -6342,7 +6342,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -55.88 0)
+				(at 38.1 -55.88 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6360,7 +6360,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -59.69 0)
+				(at 38.1 -59.69 0)
 				(length 3.81)
 				(name "EEPROM_nWP"
 					(effects
@@ -6378,7 +6378,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -63.5 0)
+				(at 38.1 -63.5 0)
 				(length 3.81)
 				(name "Ethernet_SYNC_OUT"
 					(effects
@@ -6396,7 +6396,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -67.31 0)
+				(at 38.1 -67.31 0)
 				(length 3.81)
 				(name "Ethernet_SYNC_IN"
 					(effects
@@ -6414,7 +6414,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -71.12 0)
+				(at 38.1 -71.12 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6432,7 +6432,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -74.93 0)
+				(at 38.1 -74.93 0)
 				(length 3.81)
 				(name "Ethernet_Pair0_P"
 					(effects
@@ -6450,9 +6450,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -78.74 0)
+				(at 38.1 -78.74 0)
 				(length 3.81)
-				(name "Ethernet_Pair2_N"
+				(name "Ethernet_Pair0_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6468,7 +6468,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -82.55 0)
+				(at 38.1 -82.55 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6486,7 +6486,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -86.36 0)
+				(at 38.1 -86.36 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_N"
 					(effects
@@ -6504,7 +6504,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -90.17 0)
+				(at 38.1 -90.17 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_P"
 					(effects
@@ -6522,7 +6522,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -93.98 0)
+				(at 38.1 -93.98 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6540,7 +6540,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -97.79 0)
+				(at 38.1 -97.79 0)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -6558,7 +6558,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 72.39 96.52 180)
+				(at 85.09 96.52 180)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -6576,7 +6576,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 92.71 180)
+				(at 85.09 92.71 180)
 				(length 3.81)
 				(name "GLOBAL_EN"
 					(effects
@@ -6594,7 +6594,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 88.9 180)
+				(at 85.09 88.9 180)
 				(length 3.81)
 				(name "Camera_GPIO"
 					(effects
@@ -6612,7 +6612,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 85.09 180)
+				(at 85.09 85.09 180)
 				(length 3.81)
 				(name "PI_LED_nPWR"
 					(effects
@@ -6630,7 +6630,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 81.28 180)
+				(at 85.09 81.28 180)
 				(length 3.81)
 				(name "nRPIBOOT"
 					(effects
@@ -6648,7 +6648,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 77.47 180)
+				(at 85.09 77.47 180)
 				(length 3.81)
 				(name "BT_nDisable"
 					(effects
@@ -6666,7 +6666,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 73.66 180)
+				(at 85.09 73.66 180)
 				(length 3.81)
 				(name "WL_nDisable"
 					(effects
@@ -6684,7 +6684,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 69.85 180)
+				(at 85.09 69.85 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6702,7 +6702,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 66.04 180)
+				(at 85.09 66.04 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6720,7 +6720,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 62.23 180)
+				(at 85.09 62.23 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6738,7 +6738,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 58.42 180)
+				(at 85.09 58.42 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6756,7 +6756,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 54.61 180)
+				(at 85.09 54.61 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6774,7 +6774,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 50.8 180)
+				(at 85.09 50.8 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6792,9 +6792,9 @@
 				)
 			)
 			(pin output line
-				(at 72.39 46.99 180)
+				(at 85.09 46.99 180)
 				(length 3.81)
-				(name "SD+PWR_ON"
+				(name "SD_PWR_ON"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6810,7 +6810,7 @@
 				)
 			)
 			(pin input line
-				(at 72.39 43.18 180)
+				(at 85.09 43.18 180)
 				(length 3.81)
 				(name "SD_VDD_OVERRIDE"
 					(effects
@@ -6828,7 +6828,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 39.37 180)
+				(at 85.09 39.37 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6846,7 +6846,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 35.56 180)
+				(at 85.09 35.56 180)
 				(length 3.81)
 				(name "SD_DAT2"
 					(effects
@@ -6864,7 +6864,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 31.75 180)
+				(at 85.09 31.75 180)
 				(length 3.81)
 				(name "SD_DAT1"
 					(effects
@@ -6882,7 +6882,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 27.94 180)
+				(at 85.09 27.94 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6900,7 +6900,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 24.13 180)
+				(at 85.09 24.13 180)
 				(length 3.81)
 				(name "SD_DAT0"
 					(effects
@@ -6918,7 +6918,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 20.32 180)
+				(at 85.09 20.32 180)
 				(length 3.81)
 				(name "SD_DAT3"
 					(effects
@@ -6936,7 +6936,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 16.51 180)
+				(at 85.09 16.51 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6954,7 +6954,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 12.7 180)
+				(at 85.09 12.7 180)
 				(length 3.81)
 				(name "SD_CLK"
 					(effects
@@ -6972,7 +6972,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 8.89 180)
+				(at 85.09 8.89 180)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -6990,7 +6990,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 5.08 180)
+				(at 85.09 5.08 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7008,7 +7008,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 1.27 180)
+				(at 85.09 1.27 180)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -7026,7 +7026,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -2.54 180)
+				(at 85.09 -2.54 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -7044,7 +7044,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -6.35 180)
+				(at 85.09 -6.35 180)
 				(length 3.81)
 				(name "GPIO23"
 					(effects
@@ -7062,7 +7062,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -10.16 180)
+				(at 85.09 -10.16 180)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -7080,7 +7080,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 -13.97 180)
+				(at 85.09 -13.97 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7098,7 +7098,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -17.78 180)
+				(at 85.09 -17.78 180)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -7116,7 +7116,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -21.59 180)
+				(at 85.09 -21.59 180)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -7134,7 +7134,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -25.4 180)
+				(at 85.09 -25.4 180)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -7152,9 +7152,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -29.21 180)
+				(at 85.09 -29.21 180)
 				(length 3.81)
-				(name "ID_SD"
+				(name "ID_SC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7170,7 +7170,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 -33.02 180)
+				(at 85.09 -33.02 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7188,7 +7188,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -36.83 180)
+				(at 85.09 -36.83 180)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -7206,7 +7206,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -40.64 180)
+				(at 85.09 -40.64 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -7224,7 +7224,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -44.45 180)
+				(at 85.09 -44.45 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -7242,7 +7242,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -48.26 180)
+				(at 85.09 -48.26 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -7260,7 +7260,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 -52.07 180)
+				(at 85.09 -52.07 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7278,7 +7278,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 -55.88 180)
+				(at 85.09 -55.88 180)
 				(length 3.81)
 				(name "Pi_nLED_Activity"
 					(effects
@@ -7296,7 +7296,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 -59.69 180)
+				(at 85.09 -59.69 180)
 				(length 3.81)
 				(name "Ethernet_nLED1"
 					(effects
@@ -7314,7 +7314,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 -63.5 180)
+				(at 85.09 -63.5 180)
 				(length 3.81)
 				(name "Ethernet_nLED2"
 					(effects
@@ -7332,7 +7332,7 @@
 				)
 			)
 			(pin output line
-				(at 72.39 -67.31 180)
+				(at 85.09 -67.31 180)
 				(length 3.81)
 				(name "Ethernet_nLED3"
 					(effects
@@ -7350,7 +7350,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 -71.12 180)
+				(at 85.09 -71.12 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7368,7 +7368,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -74.93 180)
+				(at 85.09 -74.93 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_P"
 					(effects
@@ -7386,7 +7386,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -78.74 180)
+				(at 85.09 -78.74 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_N"
 					(effects
@@ -7404,7 +7404,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 -82.55 180)
+				(at 85.09 -82.55 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7422,7 +7422,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -86.36 180)
+				(at 85.09 -86.36 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_N"
 					(effects
@@ -7440,7 +7440,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 72.39 -90.17 180)
+				(at 85.09 -90.17 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_P"
 					(effects
@@ -7458,7 +7458,7 @@
 				)
 			)
 			(pin power_in line
-				(at 72.39 -93.98 180)
+				(at 85.09 -93.98 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7476,7 +7476,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 72.39 -97.79 180)
+				(at 85.09 -97.79 180)
 				(length 3.81)
 				(name "Shield"
 					(effects
