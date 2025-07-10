@@ -1,4 +1,4 @@
-(footprint "RaspberryPi-CM5-Module"
+(footprint "RaspberryPi-CM5-Module-Pad"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "RaspberryPi-CM5-Module"
+	(property "Value" "RaspberryPi-CM5-Module-Pad"
 		(at 0 -20 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -86,50 +86,6 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "eb0fb8b4-caa0-41b6-ace7-1cc3f8c3b702")
-	)
-	(fp_circle
-		(center -21.5 -36.5)
-		(end -19.3 -36.5)
-		(stroke
-			(width 1.7)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "f67cd3f9-666c-4b25-90b5-1a51da54a717")
-	)
-	(fp_circle
-		(center -21.5 -3.5)
-		(end -19.3 -3.5)
-		(stroke
-			(width 1.7)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "5b4c9c03-b2ef-47b2-970c-53bde49e461b")
-	)
-	(fp_circle
-		(center 26.5 -36.5)
-		(end 28.7 -36.5)
-		(stroke
-			(width 1.7)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "f086947c-81a2-4727-94a5-cf69a4836351")
-	)
-	(fp_circle
-		(center 26.5 -3.5)
-		(end 28.7 -3.5)
-		(stroke
-			(width 1.7)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "fc46db33-f4fb-42c9-b4ae-30911926ff5d")
 	)
 	(fp_line
 		(start -25 -3.5)
@@ -321,7 +277,7 @@
 			(units 0)
 			(units_format 0)
 			(precision 4)
-			(override_value "M2.5x4 Hole With 1.7mm Clearance/Pad")
+			(override_value "M2.5x4 Hole With 1.7mm Pad")
 		)
 		(style
 			(thickness 0.1)
@@ -330,7 +286,7 @@
 			(text_frame 0)
 			(extension_offset 0.5)
 		)
-		(gr_text "M2.5x4 Hole With 1.7mm Clearance/Pad"
+		(gr_text "M2.5x4 Hole With 1.7mm Pad"
 			(at 48.34 -40.73 0)
 			(layer "Cmts.User")
 			(uuid "6d78c5ce-d6a8-4819-8846-75584e358b7c")
@@ -946,12 +902,44 @@
 			)
 		)
 	)
+	(pad "1" thru_hole circle
+		(at -21.5 -36.5)
+		(size 6.1 6.1)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91f9d225-d19c-4791-b4c3-71de2d9d7911")
+	)
+	(pad "1" thru_hole circle
+		(at -21.5 -3.5)
+		(size 6.1 6.1)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3102b7d-c89d-49d9-a3ac-170116aa0a85")
+	)
 	(pad "1" smd rect
 		(at 9.8 -38.355)
 		(size 0.23 0.66)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "8d7d4413-789d-47c1-a23a-164cdfbcbcbf")
+	)
+	(pad "1" thru_hole circle
+		(at 26.5 -36.5)
+		(size 6.1 6.1)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eaaff820-62a9-42da-9f27-483694ab1c50")
+	)
+	(pad "1" thru_hole circle
+		(at 26.5 -3.5)
+		(size 6.1 6.1)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31d78601-c00e-4095-84d4-d2118d42712c")
 	)
 	(pad "2" smd rect
 		(at 9.8 -35.645)

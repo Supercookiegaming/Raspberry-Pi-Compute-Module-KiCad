@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM5 carrier board. Footprints options of 0mm clearance and 2.5mm clearance."
+		(property "Description" "Raspberry Pi CM5 carrier board. Footprints options of 0mm clearance and 2.5mm module clearance."
 			(at 0 0 0)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raspberry-Pi-CM5:RaspberryPi-CM5-Module"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3743,6 +3743,15 @@
 			)
 		)
 		(property "Note" "10164228-1001A1RLF use for compute module connectors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Raspberry-Pi-CM5:RaspberryPi-CM5-Module-*"
 			(at 0 0 0)
 			(effects
 				(font
