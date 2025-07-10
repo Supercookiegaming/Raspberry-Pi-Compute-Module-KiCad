@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM4 carrier board.  Footprints options of 0mm clearance and 1.5mm clearance."
+		(property "Description" "Raspberry Pi CM4 carrier board.  Footprints options of 0mm clearance and 1.5mm module clearance ."
 			(at 0 0 0)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raspberry-Pi-CM4:RaspberryPi-CM4-Module"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3743,6 +3743,15 @@
 			)
 		)
 		(property "Note" "Use DF40C-100DP-0.4V for Compute Module connectors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Raspberry-Pi-CM4:RaspberryPi-CM4-Module-*"
 			(at 0 0 0)
 			(effects
 				(font
