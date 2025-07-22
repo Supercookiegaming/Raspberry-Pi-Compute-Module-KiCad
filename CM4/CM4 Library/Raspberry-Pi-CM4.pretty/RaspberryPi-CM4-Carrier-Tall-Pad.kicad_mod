@@ -2233,7 +2233,7 @@
 	(embedded_fonts no)
 	(model "C:/Users/Tony/Documents/Github/Raspberry-Pi-Compute-Module-KiCad/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
-			(xyz 0.515 3 1.5)
+			(xyz 0.12 3 1.5)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -2244,7 +2244,7 @@
 	)
 	(model "C:/Users/Tony/Documents/Github/Raspberry-Pi-Compute-Module-KiCad/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
-			(xyz 0.515 37 1.5)
+			(xyz 0.12 37 1.5)
 		)
 		(scale
 			(xyz 1 1 1)
