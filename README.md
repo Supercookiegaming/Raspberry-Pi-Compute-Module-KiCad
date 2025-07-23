@@ -8,7 +8,7 @@ This library is designed for use in KiCad 9 versions only.
 ###### *not implemented yet
 ## Install Instructions
 
-###Clone Repository
+
 1. First clone the repository to your desired location using your preferred method. For example 
 
    `cd desired-repository-location`
@@ -16,7 +16,13 @@ This library is designed for use in KiCad 9 versions only.
    `git clone https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad.git`
    
 2. Install the symbol librarys by opening KiCad 9 then going to Prefrences>Manage Symbol Librarys...
+
+![Symbol Manager Location](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Symbol%20Library%20Location.jpg)
+   
 3. Click the plus symbol in the Symbol Library window. The number of rows added must be equal to the number of libraries you are adding. ie. for both CM4 and CM5 libraries add 2 rows.
+
+![Symbol Plus Button](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Symbol%20Library%20Plus%20Button.jpg)
+   
 4. Set the Nickname of the new row(s) to
 
    For CM4:
@@ -27,7 +33,7 @@ This library is designed for use in KiCad 9 versions only.
    
    `Raspberry-Pi-CM5`
 
-6. Set the Library Path to 
+5. Set the Library Path to 
 
    For CM4:
    
@@ -36,11 +42,21 @@ This library is designed for use in KiCad 9 versions only.
    For CM5:
    
    `respository-location/Raspberry-Pi-Compute-Module-KiCad/CM5/CM5 Library/Raspberry-Pi-CM5.kicad_sym`
+
+   Example of correctly added Symbol Libraries
+
+   ![Correctly added Symbol Libraries](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Symbol%20Library%20Example.jpg)
    
-8. Click Ok to save.
-9. Install the footprint librarys by going to Prefrences>Manage Footprint Librarys...
-10. Click the plus symbol in the Footprint Library window. The number of rows added must be equal to the number of libraries you are adding. ie. for both CM4 and CM5 libraries add 2 rows.
-11. Set the Nickname of the new row(s) to
+6. Click Ok to save.
+7. Install the footprint librarys by going to Prefrences>Manage Footprint Librarys...
+
+![Footprint Manager Location](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Footprint%20Library%20Location.jpg)
+    
+8. Click the plus symbol in the Footprint Library window. The number of rows added must be equal to the number of libraries you are adding. ie. for both CM4 and CM5 libraries add 2 rows.
+
+![Footprint Plus Button](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Footprint%20Library%20Plus%20Button.jpg)
+    
+9. Set the Nickname of the new row(s) to
 
     For CM4:
    
@@ -50,7 +66,7 @@ This library is designed for use in KiCad 9 versions only.
    
     `Raspberry-Pi-CM5`
 
-12. Set the Library Path to 
+10. Set the Library Path to 
 
     For CM4:
    
@@ -59,19 +75,32 @@ This library is designed for use in KiCad 9 versions only.
     For CM5:
    
     `respository-location/Raspberry-Pi-Compute-Module-KiCad/CM5/CM5 Library/Raspberry-Pi-CM5.pretty`
-   
-13. Click Ok to save.   
-14. Add the library's internal path by going to Prefrences > Configure Paths...
-15. Click the plus symbol in the Confiure Paths window.
-16. Set the Name to
+
+    Example of correctly added Footprint Libraries:
+
+![Correctly added Footprint Libraries](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Footprint%20Library%20Example.jpg)
+11. Click Ok to save.   
+12. Add the library's internal path by going to Prefrences > Configure Paths...
+
+![Configure Path Loction](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Configure%20Paths%20Location.jpg)
+    
+13. Click the plus symbol in the Confiure Paths window.
+
+![Path Plus Button](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Configure%20Paths%20Plus%20Button.jpg)
+    
+14. Set the Name to
 
     `KICAD9_USER_RPICM_REPO_DIR`
 
-17. Set the Path to root folder of the repository
+15. Set the Path to root folder of the repository
     
      `repository-location/Raspberry-Pi-Compute-Module-KiCad`
+    
+Example of correctly added path:
 
-18. Click Ok to Save
+![correctly added path](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Configure%20Paths%20Exmaple.jpg)
+
+16. Click Ok to Save
 ## To Do List
 
 | Tasks | Status | Version Milestone |
