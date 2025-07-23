@@ -5,7 +5,7 @@ This repository is designed to provide KiCad users the tools needed to create Ra
 
 This library is designed for use in KiCad 9 versions only. 
 
-###### *not implemented yet
+
 ## Install Instructions
 
 
@@ -115,3 +115,5 @@ Example of correctly added path:
 |**CM4S Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.5**|
 |**CM5 Library**|![Completed](https://img.shields.io/badge/status-completed-brightgreen) |**v0.1**|
 |**CM5 Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.4**|
+
+###### *not implemented yet
