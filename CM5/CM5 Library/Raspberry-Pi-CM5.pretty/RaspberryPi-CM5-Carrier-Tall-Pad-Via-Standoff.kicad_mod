@@ -2553,4 +2553,48 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/9774040151R (rev1).stp"
+		(offset
+			(xyz 26.5 3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/9774040151R (rev1).stp"
+		(offset
+			(xyz 26.5 36.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/9774040151R (rev1).stp"
+		(offset
+			(xyz -21.5 3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/9774040151R (rev1).stp"
+		(offset
+			(xyz -21.5 36.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
