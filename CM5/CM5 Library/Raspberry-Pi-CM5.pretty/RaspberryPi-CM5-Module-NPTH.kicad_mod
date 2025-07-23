@@ -311,7 +311,7 @@
 			(units 0)
 			(units_format 0)
 			(precision 4)
-			(override_value "3.5x4")
+			(override_value "R3.5x4")
 		)
 		(style
 			(thickness 0.1)
@@ -320,7 +320,7 @@
 			(text_frame 0)
 			(extension_offset 0.5)
 		)
-		(gr_text "3.5x4"
+		(gr_text "R3.5x4"
 			(at -35.675 3.325 0)
 			(layer "Cmts.User")
 			(uuid "da79e3dd-c6a7-4091-a1ce-506bae9f20cd")
@@ -2395,7 +2395,7 @@
 		(uuid "41901f30-05a7-4a99-99c0-1fe419f39a28")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Tony/Documents/Github/Raspberry-Pi-Compute-Module-KiCad/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/10164228-100pin.stp"
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/10164228-100pin.stp"
 		(offset
 			(xyz 0 3 -1.7)
 		)
@@ -2406,7 +2406,7 @@
 			(xyz -0 180 -0)
 		)
 	)
-	(model "C:/Users/Tony/Documents/Github/Raspberry-Pi-Compute-Module-KiCad/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/10164228-100pin.stp"
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM5/CM5 Library/Raspberry-Pi-CM5-3D-Models/10164228-100pin.stp"
 		(offset
 			(xyz 0 37 -1.7)
 		)

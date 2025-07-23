@@ -441,7 +441,7 @@
 			(units 0)
 			(units_format 0)
 			(precision 4)
-			(override_value "3.5x4")
+			(override_value "R3.5x4")
 		)
 		(style
 			(thickness 0.1)
@@ -450,7 +450,7 @@
 			(text_frame 0)
 			(extension_offset 0.5)
 		)
-		(gr_text "3.5x4"
+		(gr_text "R3.5x4"
 			(at -33.86 2.645 0)
 			(layer "User.2")
 			(uuid "441e7596-f0b8-406b-86bb-27f48b5e5255")
@@ -2275,7 +2275,7 @@
 		(uuid "9920f815-280f-4b79-b7b3-b7c5beb9972e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Tony/Documents/Github/Raspberry-Pi-Compute-Module-KiCad/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/DF40HC(3.0)-100DS-0.4V.stp"
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
 			(xyz 0.12 3 1.5)
 		)
@@ -2286,7 +2286,7 @@
 			(xyz 90 180 90)
 		)
 	)
-	(model "C:/Users/Tony/Documents/Github/Raspberry-Pi-Compute-Module-KiCad/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/DF40HC(3.0)-100DS-0.4V.stp"
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
 			(xyz 0.12 37 1.5)
 		)

@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Use 10164227-1001A1RLF for short stackup hieght. Use 10164227-1004A1RLF for tall stackup height. "
+		(property "Note" "Use connector 10164227-1001A1RLF for short stackup hieght. Use connector 10164227-1004A1RLF for tall stackup height. Use standoff 9774015151R for short standoff options. Use standoff 9774040151R for tall standoff options. Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
@@ -3742,7 +3742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "10164228-1001A1RLF use for compute module connectors"
+		(property "Note" "10164228-1001A1RLF use for compute module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
