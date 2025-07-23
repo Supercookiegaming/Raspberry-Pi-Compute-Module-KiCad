@@ -2499,7 +2499,6 @@
 		)
 	)
 	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/DF40HC(3.0)-100DS-0.4V.stp"
-		(hide yes)
 		(offset
 			(xyz 0.12 37 1.5)
 		)
