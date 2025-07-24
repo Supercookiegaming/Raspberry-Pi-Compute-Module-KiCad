@@ -9,7 +9,7 @@ This library is designed for use in KiCad 9 versions only.
 ## Install Instructions
 
 
-1. First clone the repository to your desired location using your preferred method. For example 
+1. Clone the repository to your desired location using your preferred method. For example 
 
    `cd desired-repository-location`
    
@@ -84,7 +84,7 @@ This library is designed for use in KiCad 9 versions only.
 
 ![Configure Path Loction](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Configure%20Paths%20Location.jpg)
     
-13. Click the plus symbol in the Confiure Paths window.
+13. Click the plus symbol in the Configure Paths window.
 
 ![Path Plus Button](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/blob/c2ece7278fceb82b5f2d134c15807eb1f88bc900/Images/Configure%20Paths%20Plus%20Button.jpg)
     
