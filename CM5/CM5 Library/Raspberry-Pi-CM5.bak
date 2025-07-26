@@ -1085,7 +1085,7 @@
 			(pin bidirectional line
 				(at -36.83 49.53 180)
 				(length 3.81)
-				(name "MIPI1_C_N"
+				(name "MIPI1_C_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4832,7 +4832,7 @@
 			(pin bidirectional line
 				(at -38.1 49.53 180)
 				(length 3.81)
-				(name "MIPI1_C_N"
+				(name "MIPI1_C_P"
 					(effects
 						(font
 							(size 1.27 1.27)

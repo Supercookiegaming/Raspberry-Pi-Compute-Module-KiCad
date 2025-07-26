@@ -1085,7 +1085,7 @@
 			(pin input line
 				(at -38.1 49.53 180)
 				(length 3.81)
-				(name "DSI1_C_N"
+				(name "DSI1_C_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4832,7 +4832,7 @@
 			(pin output line
 				(at -38.1 49.53 180)
 				(length 3.81)
-				(name "DSI1_C_N"
+				(name "DSI1_C_P"
 					(effects
 						(font
 							(size 1.27 1.27)
