@@ -116,4 +116,9 @@ Example of correctly added path:
 |**CM5 Library**|![Completed](https://img.shields.io/badge/status-completed-brightgreen) |**v0.1**|
 |**CM5 Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.4**|
 
+
+| Bugs | Issue | Status| Version Milestone | Branch |
+|-------|--------|--------|--------|--------|
+|**Mislabled CM5 MIPI Pins**| [Issue #9](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/issues/9) |![Fixed in Branch](https://img.shields.io/badge/status-Fixed_in_Branch-green) | v0.2 | v0.2 |
+
 ###### *not implemented yet
