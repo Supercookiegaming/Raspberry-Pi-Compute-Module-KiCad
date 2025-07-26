@@ -119,6 +119,6 @@ Example of correctly added path:
 
 | Bugs | Issue | Status| Version Milestone | Branch |
 |-------|--------|--------|--------|--------|
-|**Mislabled CM5 MIPI Pins**| [Issue #9](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/issues/9) |![Fixed in Branch](https://img.shields.io/badge/status-Fixed_in_Branch-green) | v0.2 | v0.2 |
+|**Mislabled MIPI Pins**| [Issue #9](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/issues/9) |![Fixed in Branch](https://img.shields.io/badge/status-Fixed_in_Branch-green) | v0.2 | v0.2 |
 
 ###### *not implemented yet
