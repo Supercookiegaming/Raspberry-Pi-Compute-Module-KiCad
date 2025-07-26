@@ -1085,7 +1085,7 @@
 			(pin input line
 				(at -38.1 49.53 180)
 				(length 3.81)
-				(name "DSI1_C_N"
+				(name "DSI1_C_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3742,7 +3742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Use DF40C-100DP-0.4V for Compute Module connectors"
+		(property "Note" "Use DF40C-100DP-0.4V for Compute Module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
