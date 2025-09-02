@@ -40,16 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM4 carrier board.  Footprints options of 0mm clearance and 1.5mm module clearance ."
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Use connector DF40C-100DS-0.4v for short stackup hieght. Use connectorDF40HC(3.0)-100DS-0.4v for tall stackup height. Use standoff 9774015151R for short standoff options. Use standoff 9774030151R for tall standoff options. Options with Pads are connected to Pin 1 (GND) of CM connector."
+		(property "Description" "Raspberry Pi CM4 carrier board.  Footprints options of 0mm clearance and 1.5mm module clearance. Use connector DF40C-100DS-0.4v for short stackup hieght. Use connectorDF40HC(3.0)-100DS-0.4v for tall stackup height. Use standoff 9774015151R for short standoff options. Use standoff 9774030151R for tall standoff options. Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
@@ -3732,16 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM4 Module."
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Use DF40C-100DP-0.4V for Compute Module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
+		(property "Description" "Raspberry Pi CM4 Module. Use DF40C-100DP-0.4V for Compute Module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
@@ -7559,7 +7541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/cm4s/cm4s-datasheet.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7568,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Raspberry Pi CM4S Carrier"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11233,7 +11215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/cm4s/cm4s-datasheet.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11242,7 +11224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Raspberry Pi CM4S Module"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11257,6 +11239,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "ki_fp_filters" "Raspberry-Pi-CM4:RaspberryPi-CM4S-Module-*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "RaspberryPi-CM4S-Module_0_1"

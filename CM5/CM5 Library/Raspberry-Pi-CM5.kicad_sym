@@ -40,16 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM5 carrier board. Footprints options of 0mm clearance and 2.5mm module clearance."
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Use connector 10164227-1001A1RLF for short stackup hieght. Use connector 10164227-1004A1RLF for tall stackup height. Use standoff 9774015151R for short standoff options. Use standoff 9774040151R for tall standoff options. Options with Pads are connected to Pin 1 (GND) of CM connector."
+		(property "Description" "Raspberry Pi CM5 carrier board. Footprints options of 0mm clearance and 2.5mm module clearance. Use connector 10164227-1001A1RLF for short stackup hieght. Use connector 10164227-1004A1RLF for tall stackup height. Use standoff 9774015151R for short standoff options. Use standoff 9774040151R for tall standoff options. Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
@@ -3732,16 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM5 Module."
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "10164228-1001A1RLF use for compute module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
+		(property "Description" "Raspberry Pi CM5 Module. 10164228-1001A1RLF use for compute module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
