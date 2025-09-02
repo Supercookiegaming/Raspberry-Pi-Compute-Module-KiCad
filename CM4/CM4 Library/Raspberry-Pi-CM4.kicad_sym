@@ -7567,10 +7567,19 @@
 				)
 			)
 		)
+		(property "ki_fp_filters" "Raspberry-Pi-CM4:RaspberryPi-CM4S-Carrier-*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RaspberryPi-CM4S-Carrier_0_1"
 			(rectangle
 				(start -17.78 67.31)
-				(end 21.59 -62.23)
+				(end 21.59 -64.77)
 				(stroke
 					(width 0)
 					(type default)
@@ -8481,6 +8490,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -21.59 -62.23 0)
+				(length 3.81)
+				(name "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 25.4 64.77 180)
 				(length 3.81)
@@ -9374,6 +9401,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -62.23 180)
+				(length 3.81)
+				(name "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP1"
 					(effects
 						(font
 							(size 1.27 1.27)
