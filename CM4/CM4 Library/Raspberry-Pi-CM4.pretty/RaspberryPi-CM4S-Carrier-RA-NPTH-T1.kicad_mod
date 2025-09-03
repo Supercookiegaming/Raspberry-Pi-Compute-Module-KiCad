@@ -134,6 +134,18 @@
 		(layer "F.SilkS")
 		(uuid "8fbf83d0-14b1-4af2-9504-36176768fae7")
 	)
+	(fp_text user "Compute Module 4S"
+		(at 0 19.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f8b51794-cc6f-4436-8838-4a6fc45e5153")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 11.085 0)
 		(unlocked yes)
