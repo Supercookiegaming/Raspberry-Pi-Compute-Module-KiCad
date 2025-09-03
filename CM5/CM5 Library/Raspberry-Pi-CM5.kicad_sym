@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM5 carrier board. Footprints options of 0mm clearance and 2.5mm module clearance."
+		(property "Description" "Raspberry Pi CM5 carrier board. Footprints options of 0mm clearance and 2.5mm module clearance. Use connector 10164227-1001A1RLF for short stackup hieght. Use connector 10164227-1004A1RLF for tall stackup height. Use standoff 9774015151R for short standoff options. Use standoff 9774040151R for tall standoff options. Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,13 +49,12 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Use connector 10164227-1001A1RLF for short stackup hieght. Use connector 10164227-1004A1RLF for tall stackup height. Use standoff 9774015151R for short standoff options. Use standoff 9774040151R for tall standoff options. Options with Pads are connected to Pin 1 (GND) of CM connector."
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Raspberry-Pi-CM5:RaspberryPi-CM5-Carrier-*"
@@ -69,19 +68,8 @@
 		)
 		(symbol "RaspberryPi-CM5-Carrier_0_1"
 			(rectangle
-				(start -80.01 64.77)
-				(end -40.64 -64.77)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 40.64 64.77)
-				(end 80.01 -64.77)
+				(start -19.05 66.04)
+				(end 20.32 -63.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -93,1807 +81,7 @@
 		)
 		(symbol "RaspberryPi-CM5-Carrier_1_1"
 			(pin bidirectional line
-				(at -83.82 62.23 0)
-				(length 3.81)
-				(name "HDMI0_SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "200"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 59.69 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "198"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -83.82 57.15 0)
-				(length 3.81)
-				(name "MIPI1_D3_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "196"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -83.82 54.61 0)
-				(length 3.81)
-				(name "MIPI1_D3_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "194"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 52.07 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "192"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 49.53 0)
-				(length 3.81)
-				(name "HDMI0_CLK_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "190"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 46.99 0)
-				(length 3.81)
-				(name "HDMI0_CLK_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "188"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 44.45 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "186"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 41.91 0)
-				(length 3.81)
-				(name "HDMI0_TX0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "184"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 39.37 0)
-				(length 3.81)
-				(name "HDMI0_TX0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "182"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 36.83 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "180"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 34.29 0)
-				(length 3.81)
-				(name "HDMI0_TX1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "178"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 31.75 0)
-				(length 3.81)
-				(name "HDMI0_TX1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "176"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 29.21 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "174"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 26.67 0)
-				(length 3.81)
-				(name "HDMI0_TX2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "172"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 24.13 0)
-				(length 3.81)
-				(name "HDMI0_TX2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "170"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 21.59 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "168"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 19.05 0)
-				(length 3.81)
-				(name "HDMI1_CLK_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "166"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 16.51 0)
-				(length 3.81)
-				(name "HDMI1_CLK_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "164"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 13.97 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "162"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 11.43 0)
-				(length 3.81)
-				(name "HDMI1_TX0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "160"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 8.89 0)
-				(length 3.81)
-				(name "HDMI1_TX0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "158"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 6.35 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "156"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 3.81 0)
-				(length 3.81)
-				(name "HDMI1_TX1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "154"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 1.27 0)
-				(length 3.81)
-				(name "HDMI1_TX1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "152"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -1.27 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "150"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -3.81 0)
-				(length 3.81)
-				(name "HDMI1_TX2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "148"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -6.35 0)
-				(length 3.81)
-				(name "HDMI1_TX2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "146"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -8.89 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "144"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -11.43 0)
-				(length 3.81)
-				(name "USB3-0-TX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "142"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -13.97 0)
-				(length 3.81)
-				(name "USB3-0-TX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "140"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -16.51 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "138"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -83.82 -19.05 0)
-				(length 3.81)
-				(name "USB3-0-DM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "136"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -83.82 -21.59 0)
-				(length 3.81)
-				(name "USB3-0-DP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "134"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -24.13 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "132"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -83.82 -26.67 0)
-				(length 3.81)
-				(name "USB3-0-RX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "130"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -83.82 -29.21 0)
-				(length 3.81)
-				(name "USB3-0-RX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "128"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -31.75 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "126"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -34.29 0)
-				(length 3.81)
-				(name "PCIe_TX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "124"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -36.83 0)
-				(length 3.81)
-				(name "PCIe_TX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "122"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -39.37 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "120"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -83.82 -41.91 0)
-				(length 3.81)
-				(name "PCIe_RX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "118"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -83.82 -44.45 0)
-				(length 3.81)
-				(name "PCIe_RX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "116"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -46.99 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "114"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -49.53 0)
-				(length 3.81)
-				(name "PCIe_CLK_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "112"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -52.07 0)
-				(length 3.81)
-				(name "PCIe_CLK_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "110"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -83.82 -54.61 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "108"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -83.82 -57.15 0)
-				(length 3.81)
-				(name "PCIE_PWR_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "106"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -83.82 -59.69 0)
-				(length 3.81)
-				(name "PCIE_nWAKE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "104"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -83.82 -62.23 0)
-				(length 3.81)
-				(name "PCIe_CLK_nREQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "102"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 62.23 180)
-				(length 3.81)
-				(name "HDMI0_SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "199"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 59.69 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "197"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 57.15 180)
-				(length 3.81)
-				(name "MIPI1_D2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "195"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 54.61 180)
-				(length 3.81)
-				(name "MIPI1_D2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "193"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 52.07 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "191"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 49.53 180)
-				(length 3.81)
-				(name "MIPI1_C_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "189"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 46.99 180)
-				(length 3.81)
-				(name "MIPI1_C_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "187"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 44.45 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "185"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 41.91 180)
-				(length 3.81)
-				(name "MIPI1_D1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "183"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 39.37 180)
-				(length 3.81)
-				(name "MIPI1_D1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "181"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 36.83 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "179"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 34.29 180)
-				(length 3.81)
-				(name "MIPI1_D0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "177"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 31.75 180)
-				(length 3.81)
-				(name "MIPI1_D0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "175"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 29.21 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "173"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -36.83 26.67 180)
-				(length 3.81)
-				(name "USB3-1-TX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "171"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -36.83 24.13 180)
-				(length 3.81)
-				(name "USB3-1-TX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "169"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 21.59 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "167"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 19.05 180)
-				(length 3.81)
-				(name "USB3-1-DM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "165"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 16.51 180)
-				(length 3.81)
-				(name "USB3-1-DP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "163"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 13.97 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "161"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -36.83 11.43 180)
-				(length 3.81)
-				(name "USB3-1-RX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "159"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -36.83 8.89 180)
-				(length 3.81)
-				(name "USB3-1-RX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "157"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 6.35 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "155"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -36.83 3.81 180)
-				(length 3.81)
-				(name "HDMI0_HOTPLUG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "153"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -36.83 1.27 180)
-				(length 3.81)
-				(name "HDMI0_CEC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "151"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -36.83 -1.27 180)
-				(length 3.81)
-				(name "HDMI1_CEC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "149"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -3.81 180)
-				(length 3.81)
-				(name "HDMI1_SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "147"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -6.35 180)
-				(length 3.81)
-				(name "HDMI1_SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "145"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -36.83 -8.89 180)
-				(length 3.81)
-				(name "HDMI1_HOTPLUG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "143"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -11.43 180)
-				(length 3.81)
-				(name "MIPI0_D3_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "141"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -13.97 180)
-				(length 3.81)
-				(name "MIPI0_D3_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "139"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 -16.51 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "137"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -19.05 180)
-				(length 3.81)
-				(name "MIPI0_D2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "135"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -21.59 180)
-				(length 3.81)
-				(name "MIPI0_D2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "133"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 -24.13 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "131"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -26.67 180)
-				(length 3.81)
-				(name "MIPI0_C_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "129"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -29.21 180)
-				(length 3.81)
-				(name "MIPI0_C_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "127"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 -31.75 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "125"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -34.29 180)
-				(length 3.81)
-				(name "MIPI0_D1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "123"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -36.83 180)
-				(length 3.81)
-				(name "MIPI0_D1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "121"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 -39.37 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "119"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -41.91 180)
-				(length 3.81)
-				(name "MIPI0_D0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "117"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -44.45 180)
-				(length 3.81)
-				(name "MIPI0_D0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "115"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 -46.99 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "113"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -36.83 -49.53 180)
-				(length 3.81)
-				(name "VBUS_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "111"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -36.83 -52.07 180)
-				(length 3.81)
-				(name "PCIe_nRST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "109"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -36.83 -54.61 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "107"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -57.15 180)
-				(length 3.81)
-				(name "USB_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "105"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -36.83 -59.69 180)
-				(length 3.81)
-				(name "USB_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "103"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -36.83 -62.23 180)
-				(length 3.81)
-				(name "USB_OTG_ID"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 36.83 62.23 0)
+				(at -22.86 63.5 0)
 				(length 3.81)
 				(name "CAM_GPIO1"
 					(effects
@@ -1911,7 +99,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 59.69 0)
+				(at -22.86 60.96 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1929,7 +117,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 57.15 0)
+				(at -22.86 58.42 0)
 				(length 3.81)
 				(name "CC2"
 					(effects
@@ -1947,7 +135,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 54.61 0)
+				(at -22.86 55.88 0)
 				(length 3.81)
 				(name "CC1"
 					(effects
@@ -1965,7 +153,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 52.07 0)
+				(at -22.86 53.34 0)
 				(length 3.81)
 				(name "PWR_Button"
 					(effects
@@ -1983,7 +171,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 49.53 0)
+				(at -22.86 50.8 0)
 				(length 3.81)
 				(name "CM5_1.8V_(Output)"
 					(effects
@@ -2001,7 +189,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 46.99 0)
+				(at -22.86 48.26 0)
 				(length 3.81)
 				(name "CM5_1.8V_(Output)"
 					(effects
@@ -2019,7 +207,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 44.45 0)
+				(at -22.86 45.72 0)
 				(length 3.81)
 				(name "CM5_3.3V_(Output)"
 					(effects
@@ -2037,7 +225,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 41.91 0)
+				(at -22.86 43.18 0)
 				(length 3.81)
 				(name "CM5_3.3V_(Output)"
 					(effects
@@ -2055,7 +243,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 39.37 0)
+				(at -22.86 40.64 0)
 				(length 3.81)
 				(name "SDA0"
 					(effects
@@ -2073,7 +261,7 @@
 				)
 			)
 			(pin input line
-				(at 36.83 36.83 0)
+				(at -22.86 38.1 0)
 				(length 3.81)
 				(name "SCL0"
 					(effects
@@ -2091,7 +279,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 34.29 0)
+				(at -22.86 35.56 0)
 				(length 3.81)
 				(name "GPIO_VREF"
 					(effects
@@ -2109,7 +297,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 31.75 0)
+				(at -22.86 33.02 0)
 				(length 3.81)
 				(name "VBAT"
 					(effects
@@ -2127,7 +315,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 29.21 0)
+				(at -22.86 30.48 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2145,7 +333,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 26.67 0)
+				(at -22.86 27.94 0)
 				(length 3.81)
 				(name "SD_DAT6"
 					(effects
@@ -2163,7 +351,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 24.13 0)
+				(at -22.86 25.4 0)
 				(length 3.81)
 				(name "SD_DAT7"
 					(effects
@@ -2181,7 +369,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 21.59 0)
+				(at -22.86 22.86 0)
 				(length 3.81)
 				(name "SD_DAT4"
 					(effects
@@ -2199,7 +387,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 19.05 0)
+				(at -22.86 20.32 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2217,7 +405,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 16.51 0)
+				(at -22.86 17.78 0)
 				(length 3.81)
 				(name "SD_DAT5"
 					(effects
@@ -2235,7 +423,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 13.97 0)
+				(at -22.86 15.24 0)
 				(length 3.81)
 				(name "SD_CMD"
 					(effects
@@ -2253,7 +441,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 11.43 0)
+				(at -22.86 12.7 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2271,7 +459,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 8.89 0)
+				(at -22.86 10.16 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -2289,7 +477,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 6.35 0)
+				(at -22.86 7.62 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -2307,7 +495,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 3.81 0)
+				(at -22.86 5.08 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -2325,7 +513,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 1.27 0)
+				(at -22.86 2.54 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2343,7 +531,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -1.27 0)
+				(at -22.86 0 0)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -2361,7 +549,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -3.81 0)
+				(at -22.86 -2.54 0)
 				(length 3.81)
 				(name "GPIO27"
 					(effects
@@ -2379,7 +567,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -6.35 0)
+				(at -22.86 -5.08 0)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -2397,7 +585,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -8.89 0)
+				(at -22.86 -7.62 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -2415,7 +603,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 -11.43 0)
+				(at -22.86 -10.16 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2433,7 +621,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -13.97 0)
+				(at -22.86 -12.7 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -2451,7 +639,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -16.51 0)
+				(at -22.86 -15.24 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -2469,7 +657,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -19.05 0)
+				(at -22.86 -17.78 0)
 				(length 3.81)
 				(name "ID_SD"
 					(effects
@@ -2487,7 +675,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -21.59 0)
+				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -2505,7 +693,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 -24.13 0)
+				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2523,7 +711,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -26.67 0)
+				(at -22.86 -25.4 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -2541,7 +729,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -29.21 0)
+				(at -22.86 -27.94 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -2559,7 +747,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -31.75 0)
+				(at -22.86 -30.48 0)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -2577,7 +765,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -34.29 0)
+				(at -22.86 -33.02 0)
 				(length 3.81)
 				(name "GPIO26"
 					(effects
@@ -2595,7 +783,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 -36.83 0)
+				(at -22.86 -35.56 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2613,7 +801,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 -39.37 0)
+				(at -22.86 -38.1 0)
 				(length 3.81)
 				(name "EEPROM_nWP"
 					(effects
@@ -2631,7 +819,7 @@
 				)
 			)
 			(pin input line
-				(at 36.83 -41.91 0)
+				(at -22.86 -40.64 0)
 				(length 3.81)
 				(name "Ethernet_SYNC_OUT"
 					(effects
@@ -2649,7 +837,7 @@
 				)
 			)
 			(pin output line
-				(at 36.83 -44.45 0)
+				(at -22.86 -43.18 0)
 				(length 3.81)
 				(name "Fan_Tacho"
 					(effects
@@ -2667,7 +855,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 -46.99 0)
+				(at -22.86 -45.72 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2685,7 +873,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -49.53 0)
+				(at -22.86 -48.26 0)
 				(length 3.81)
 				(name "Ethernet_Pair0_P"
 					(effects
@@ -2703,7 +891,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -52.07 0)
+				(at -22.86 -50.8 0)
 				(length 3.81)
 				(name "Ethernet_Pair0_N"
 					(effects
@@ -2721,7 +909,7 @@
 				)
 			)
 			(pin power_in line
-				(at 36.83 -54.61 0)
+				(at -22.86 -53.34 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2739,7 +927,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -57.15 0)
+				(at -22.86 -55.88 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_N"
 					(effects
@@ -2757,7 +945,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 36.83 -59.69 0)
+				(at -22.86 -58.42 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_P"
 					(effects
@@ -2775,7 +963,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 -62.23 0)
+				(at -22.86 -60.96 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -2793,7 +981,7 @@
 				)
 			)
 			(pin output line
-				(at 83.82 62.23 180)
+				(at 24.13 63.5 180)
 				(length 3.81)
 				(name "PMIC_Enable"
 					(effects
@@ -2811,7 +999,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 59.69 180)
+				(at 24.13 60.96 180)
 				(length 3.81)
 				(name "Camera_GPIO0"
 					(effects
@@ -2829,7 +1017,7 @@
 				)
 			)
 			(pin input line
-				(at 83.82 57.15 180)
+				(at 24.13 58.42 180)
 				(length 3.81)
 				(name "PI_LED_nPWR"
 					(effects
@@ -2847,7 +1035,7 @@
 				)
 			)
 			(pin output line
-				(at 83.82 54.61 180)
+				(at 24.13 55.88 180)
 				(length 3.81)
 				(name "nRPIBOOT"
 					(effects
@@ -2865,7 +1053,7 @@
 				)
 			)
 			(pin output line
-				(at 83.82 52.07 180)
+				(at 24.13 53.34 180)
 				(length 3.81)
 				(name "BT_nDisable"
 					(effects
@@ -2883,7 +1071,7 @@
 				)
 			)
 			(pin output line
-				(at 83.82 49.53 180)
+				(at 24.13 50.8 180)
 				(length 3.81)
 				(name "WL_nDisable"
 					(effects
@@ -2901,7 +1089,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 46.99 180)
+				(at 24.13 48.26 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2919,7 +1107,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 44.45 180)
+				(at 24.13 45.72 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2937,7 +1125,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 41.91 180)
+				(at 24.13 43.18 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2955,7 +1143,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 39.37 180)
+				(at 24.13 40.64 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2973,7 +1161,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 36.83 180)
+				(at 24.13 38.1 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -2991,7 +1179,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 34.29 180)
+				(at 24.13 35.56 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -3009,7 +1197,7 @@
 				)
 			)
 			(pin output line
-				(at 83.82 31.75 180)
+				(at 24.13 33.02 180)
 				(length 3.81)
 				(name "SD_PWR_ON"
 					(effects
@@ -3027,7 +1215,7 @@
 				)
 			)
 			(pin output line
-				(at 83.82 29.21 180)
+				(at 24.13 30.48 180)
 				(length 3.81)
 				(name "SD_VDD_OVERRIDE"
 					(effects
@@ -3045,7 +1233,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 26.67 180)
+				(at 24.13 27.94 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3063,7 +1251,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 24.13 180)
+				(at 24.13 25.4 180)
 				(length 3.81)
 				(name "SD_DAT2"
 					(effects
@@ -3081,7 +1269,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 21.59 180)
+				(at 24.13 22.86 180)
 				(length 3.81)
 				(name "SD_DAT1"
 					(effects
@@ -3099,7 +1287,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 19.05 180)
+				(at 24.13 20.32 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3117,7 +1305,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 16.51 180)
+				(at 24.13 17.78 180)
 				(length 3.81)
 				(name "SD_DAT0"
 					(effects
@@ -3135,7 +1323,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 13.97 180)
+				(at 24.13 15.24 180)
 				(length 3.81)
 				(name "SD_DAT3"
 					(effects
@@ -3153,7 +1341,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 11.43 180)
+				(at 24.13 12.7 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3171,7 +1359,7 @@
 				)
 			)
 			(pin input line
-				(at 83.82 8.89 180)
+				(at 24.13 10.16 180)
 				(length 3.81)
 				(name "SD_CLK"
 					(effects
@@ -3189,7 +1377,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 6.35 180)
+				(at 24.13 7.62 180)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -3207,7 +1395,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 3.81 180)
+				(at 24.13 5.08 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3225,7 +1413,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 1.27 180)
+				(at 24.13 2.54 180)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -3243,7 +1431,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -1.27 180)
+				(at 24.13 0 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -3261,7 +1449,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -3.81 180)
+				(at 24.13 -2.54 180)
 				(length 3.81)
 				(name "GPIO23"
 					(effects
@@ -3279,7 +1467,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -6.35 180)
+				(at 24.13 -5.08 180)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -3297,7 +1485,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 -8.89 180)
+				(at 24.13 -7.62 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3315,7 +1503,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -11.43 180)
+				(at 24.13 -10.16 180)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -3333,7 +1521,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -13.97 180)
+				(at 24.13 -12.7 180)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -3351,7 +1539,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -16.51 180)
+				(at 24.13 -15.24 180)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -3369,7 +1557,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -19.05 180)
+				(at 24.13 -17.78 180)
 				(length 3.81)
 				(name "ID_SC"
 					(effects
@@ -3387,7 +1575,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 -21.59 180)
+				(at 24.13 -20.32 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3405,7 +1593,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -24.13 180)
+				(at 24.13 -22.86 180)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -3423,7 +1611,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -26.67 180)
+				(at 24.13 -25.4 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -3441,7 +1629,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -29.21 180)
+				(at 24.13 -27.94 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -3459,7 +1647,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -31.75 180)
+				(at 24.13 -30.48 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -3477,7 +1665,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 -34.29 180)
+				(at 24.13 -33.02 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3495,7 +1683,7 @@
 				)
 			)
 			(pin input line
-				(at 83.82 -36.83 180)
+				(at 24.13 -35.56 180)
 				(length 3.81)
 				(name "LED_nACT"
 					(effects
@@ -3513,7 +1701,7 @@
 				)
 			)
 			(pin input line
-				(at 83.82 -39.37 180)
+				(at 24.13 -38.1 180)
 				(length 3.81)
 				(name "Fan_PWM"
 					(effects
@@ -3531,7 +1719,7 @@
 				)
 			)
 			(pin input line
-				(at 83.82 -41.91 180)
+				(at 24.13 -40.64 180)
 				(length 3.81)
 				(name "Ethernet_nLED2"
 					(effects
@@ -3549,7 +1737,7 @@
 				)
 			)
 			(pin input line
-				(at 83.82 -44.45 180)
+				(at 24.13 -43.18 180)
 				(length 3.81)
 				(name "Ethernet_nLED3"
 					(effects
@@ -3567,7 +1755,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 -46.99 180)
+				(at 24.13 -45.72 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3585,7 +1773,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -49.53 180)
+				(at 24.13 -48.26 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_P"
 					(effects
@@ -3603,7 +1791,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -52.07 180)
+				(at 24.13 -50.8 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_N"
 					(effects
@@ -3621,7 +1809,7 @@
 				)
 			)
 			(pin power_in line
-				(at 83.82 -54.61 180)
+				(at 24.13 -53.34 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3639,7 +1827,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -57.15 180)
+				(at 24.13 -55.88 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_N"
 					(effects
@@ -3657,7 +1845,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 83.82 -59.69 180)
+				(at 24.13 -58.42 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_P"
 					(effects
@@ -3675,7 +1863,7 @@
 				)
 			)
 			(pin power_out line
-				(at 83.82 -62.23 180)
+				(at 24.13 -60.96 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -3685,6 +1873,1808 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RaspberryPi-CM5-Carrier_2_1"
+			(pin bidirectional line
+				(at -22.86 63.5 0)
+				(length 3.81)
+				(name "HDMI0_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "200"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 60.96 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "198"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 58.42 0)
+				(length 3.81)
+				(name "MIPI1_D3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "196"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 55.88 0)
+				(length 3.81)
+				(name "MIPI1_D3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "194"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 53.34 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "192"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 50.8 0)
+				(length 3.81)
+				(name "HDMI0_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "190"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 48.26 0)
+				(length 3.81)
+				(name "HDMI0_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "188"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 45.72 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "186"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 43.18 0)
+				(length 3.81)
+				(name "HDMI0_TX0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "184"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 40.64 0)
+				(length 3.81)
+				(name "HDMI0_TX0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "182"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 38.1 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "180"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 35.56 0)
+				(length 3.81)
+				(name "HDMI0_TX1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "178"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 33.02 0)
+				(length 3.81)
+				(name "HDMI0_TX1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "176"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 30.48 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "174"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 27.94 0)
+				(length 3.81)
+				(name "HDMI0_TX2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "172"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 25.4 0)
+				(length 3.81)
+				(name "HDMI0_TX2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "170"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 22.86 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "168"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 20.32 0)
+				(length 3.81)
+				(name "HDMI1_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "166"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 17.78 0)
+				(length 3.81)
+				(name "HDMI1_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "164"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 15.24 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "162"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 12.7 0)
+				(length 3.81)
+				(name "HDMI1_TX0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "160"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 10.16 0)
+				(length 3.81)
+				(name "HDMI1_TX0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "158"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 7.62 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "156"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 5.08 0)
+				(length 3.81)
+				(name "HDMI1_TX1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "154"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 2.54 0)
+				(length 3.81)
+				(name "HDMI1_TX1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "152"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 0 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "150"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -2.54 0)
+				(length 3.81)
+				(name "HDMI1_TX2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "148"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -5.08 0)
+				(length 3.81)
+				(name "HDMI1_TX2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "146"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -7.62 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "144"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -10.16 0)
+				(length 3.81)
+				(name "USB3-0-TX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "142"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -12.7 0)
+				(length 3.81)
+				(name "USB3-0-TX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "140"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -15.24 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "138"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -17.78 0)
+				(length 3.81)
+				(name "USB3-0-DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "136"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -20.32 0)
+				(length 3.81)
+				(name "USB3-0-DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "134"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -22.86 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "132"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -25.4 0)
+				(length 3.81)
+				(name "USB3-0-RX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "130"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -27.94 0)
+				(length 3.81)
+				(name "USB3-0-RX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "128"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -30.48 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "126"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -33.02 0)
+				(length 3.81)
+				(name "PCIe_TX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "124"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -35.56 0)
+				(length 3.81)
+				(name "PCIe_TX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "122"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -38.1 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -40.64 0)
+				(length 3.81)
+				(name "PCIe_RX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -43.18 0)
+				(length 3.81)
+				(name "PCIe_RX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -45.72 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -48.26 0)
+				(length 3.81)
+				(name "PCIe_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "112"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -50.8 0)
+				(length 3.81)
+				(name "PCIe_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -22.86 -53.34 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "108"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -55.88 0)
+				(length 3.81)
+				(name "PCIE_PWR_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "106"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -58.42 0)
+				(length 3.81)
+				(name "PCIE_nWAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "104"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -60.96 0)
+				(length 3.81)
+				(name "PCIe_CLK_nREQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 63.5 180)
+				(length 3.81)
+				(name "HDMI0_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "199"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 60.96 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "197"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 58.42 180)
+				(length 3.81)
+				(name "MIPI1_D2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "195"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 55.88 180)
+				(length 3.81)
+				(name "MIPI1_D2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "193"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 53.34 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "191"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 50.8 180)
+				(length 3.81)
+				(name "MIPI1_C_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "189"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 48.26 180)
+				(length 3.81)
+				(name "MIPI1_C_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "187"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 45.72 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "185"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 43.18 180)
+				(length 3.81)
+				(name "MIPI1_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "183"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 40.64 180)
+				(length 3.81)
+				(name "MIPI1_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "181"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 38.1 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "179"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 35.56 180)
+				(length 3.81)
+				(name "MIPI1_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "177"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 33.02 180)
+				(length 3.81)
+				(name "MIPI1_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "175"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 30.48 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "173"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 27.94 180)
+				(length 3.81)
+				(name "USB3-1-TX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "171"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 25.4 180)
+				(length 3.81)
+				(name "USB3-1-TX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "169"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 22.86 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "167"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 20.32 180)
+				(length 3.81)
+				(name "USB3-1-DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "165"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 17.78 180)
+				(length 3.81)
+				(name "USB3-1-DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "163"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 15.24 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "161"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 12.7 180)
+				(length 3.81)
+				(name "USB3-1-RX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "159"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 10.16 180)
+				(length 3.81)
+				(name "USB3-1-RX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "157"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 7.62 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "155"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 5.08 180)
+				(length 3.81)
+				(name "HDMI0_HOTPLUG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "153"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 2.54 180)
+				(length 3.81)
+				(name "HDMI0_CEC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "151"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 0 180)
+				(length 3.81)
+				(name "HDMI1_CEC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "149"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -2.54 180)
+				(length 3.81)
+				(name "HDMI1_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "147"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -5.08 180)
+				(length 3.81)
+				(name "HDMI1_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "145"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -7.62 180)
+				(length 3.81)
+				(name "HDMI1_HOTPLUG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "143"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -10.16 180)
+				(length 3.81)
+				(name "MIPI0_D3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "141"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -12.7 180)
+				(length 3.81)
+				(name "MIPI0_D3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "139"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 -15.24 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "137"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -17.78 180)
+				(length 3.81)
+				(name "MIPI0_D2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "135"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -20.32 180)
+				(length 3.81)
+				(name "MIPI0_D2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "133"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 -22.86 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "131"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -25.4 180)
+				(length 3.81)
+				(name "MIPI0_C_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "129"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -27.94 180)
+				(length 3.81)
+				(name "MIPI0_C_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "127"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 -30.48 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "125"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -33.02 180)
+				(length 3.81)
+				(name "MIPI0_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "123"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -35.56 180)
+				(length 3.81)
+				(name "MIPI0_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "121"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 -38.1 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -40.64 180)
+				(length 3.81)
+				(name "MIPI0_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -43.18 180)
+				(length 3.81)
+				(name "MIPI0_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "115"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 -45.72 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 -48.26 180)
+				(length 3.81)
+				(name "VBUS_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 -50.8 180)
+				(length 3.81)
+				(name "PCIe_nRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "109"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 24.13 -53.34 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "107"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -55.88 180)
+				(length 3.81)
+				(name "USB_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "105"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -58.42 180)
+				(length 3.81)
+				(name "USB_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -60.96 180)
+				(length 3.81)
+				(name "USB_OTG_ID"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3733,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM5 Module."
+		(property "Description" "Raspberry Pi CM5 Module. 10164228-1001A1RLF use for compute module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
 			(at 0 0 0)
 			(effects
 				(font
@@ -3742,13 +3732,12 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "10164228-1001A1RLF use for compute module connectors.  Options with Pads are connected to Pin 1 (GND) of CM connector."
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Raspberry-Pi-CM5:RaspberryPi-CM5-Module-*"
@@ -3762,19 +3751,8 @@
 		)
 		(symbol "RaspberryPi-CM5-Module_0_1"
 			(rectangle
-				(start -81.28 67.31)
-				(end -41.91 -67.31)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 41.91 67.31)
-				(end 81.28 -67.31)
+				(start -19.05 67.31)
+				(end 20.32 -67.31)
 				(stroke
 					(width 0)
 					(type default)
@@ -3786,1879 +3764,7 @@
 		)
 		(symbol "RaspberryPi-CM5-Module_1_1"
 			(pin no_connect line
-				(at -85.09 64.77 0)
-				(length 3.81)
-				(name "Shield"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SH8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -85.09 62.23 0)
-				(length 3.81)
-				(name "HDMI0_SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "200"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 59.69 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "198"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -85.09 57.15 0)
-				(length 3.81)
-				(name "MIPI1_D3_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "196"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -85.09 54.61 0)
-				(length 3.81)
-				(name "MIPI1_D3_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "194"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 52.07 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "192"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 49.53 0)
-				(length 3.81)
-				(name "HDMI0_CLK_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "190"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 46.99 0)
-				(length 3.81)
-				(name "HDMI0_CLK_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "188"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 44.45 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "186"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 41.91 0)
-				(length 3.81)
-				(name "HDMI0_TX0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "184"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 39.37 0)
-				(length 3.81)
-				(name "HDMI0_TX0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "182"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 36.83 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "180"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 34.29 0)
-				(length 3.81)
-				(name "HDMI0_TX1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "178"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 31.75 0)
-				(length 3.81)
-				(name "HDMI0_TX1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "176"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 29.21 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "174"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 26.67 0)
-				(length 3.81)
-				(name "HDMI0_TX2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "172"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 24.13 0)
-				(length 3.81)
-				(name "HDMI0_TX2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "170"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 21.59 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "168"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 19.05 0)
-				(length 3.81)
-				(name "HDMI1_CLK_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "166"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 16.51 0)
-				(length 3.81)
-				(name "HDMI1_CLK_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "164"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 13.97 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "162"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 11.43 0)
-				(length 3.81)
-				(name "HDMI1_TX0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "160"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 8.89 0)
-				(length 3.81)
-				(name "HDMI1_TX0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "158"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 6.35 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "156"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 3.81 0)
-				(length 3.81)
-				(name "HDMI1_TX1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "154"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 1.27 0)
-				(length 3.81)
-				(name "HDMI1_TX1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "152"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -1.27 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "150"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -3.81 0)
-				(length 3.81)
-				(name "HDMI1_TX2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "148"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -6.35 0)
-				(length 3.81)
-				(name "HDMI1_TX2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "146"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -8.89 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "144"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -11.43 0)
-				(length 3.81)
-				(name "USB3-0-TX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "142"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -13.97 0)
-				(length 3.81)
-				(name "USB3-0-TX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "140"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -16.51 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "138"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -85.09 -19.05 0)
-				(length 3.81)
-				(name "USB3-0-DM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "136"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -85.09 -21.59 0)
-				(length 3.81)
-				(name "USB3-0-DP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "134"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -24.13 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "132"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -85.09 -26.67 0)
-				(length 3.81)
-				(name "USB3-0-RX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "130"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -85.09 -29.21 0)
-				(length 3.81)
-				(name "USB3-0-RX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "128"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -31.75 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "126"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -34.29 0)
-				(length 3.81)
-				(name "PCIe_TX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "124"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -36.83 0)
-				(length 3.81)
-				(name "PCIe_TX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "122"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -39.37 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "120"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -85.09 -41.91 0)
-				(length 3.81)
-				(name "PCIe_RX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "118"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -85.09 -44.45 0)
-				(length 3.81)
-				(name "PCIe_RX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "116"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -46.99 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "114"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -49.53 0)
-				(length 3.81)
-				(name "PCIe_CLK_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "112"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -52.07 0)
-				(length 3.81)
-				(name "PCIe_CLK_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "110"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -85.09 -54.61 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "108"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -85.09 -57.15 0)
-				(length 3.81)
-				(name "PCIE_PWR_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "106"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -85.09 -59.69 0)
-				(length 3.81)
-				(name "PCIE_nWAKE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "104"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -85.09 -62.23 0)
-				(length 3.81)
-				(name "PCIe_CLK_nREQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "102"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -85.09 -64.77 0)
-				(length 3.81)
-				(name "Shield"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SH6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -38.1 64.77 180)
-				(length 3.81)
-				(name "Shield"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SH7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 62.23 180)
-				(length 3.81)
-				(name "HDMI0_SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "199"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 59.69 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "197"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 57.15 180)
-				(length 3.81)
-				(name "MIPI1_D2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "195"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 54.61 180)
-				(length 3.81)
-				(name "MIPI1_D2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "193"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 52.07 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "191"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 49.53 180)
-				(length 3.81)
-				(name "MIPI1_C_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "189"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 46.99 180)
-				(length 3.81)
-				(name "MIPI1_C_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "187"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 44.45 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "185"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 41.91 180)
-				(length 3.81)
-				(name "MIPI1_D1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "183"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 39.37 180)
-				(length 3.81)
-				(name "MIPI1_D1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "181"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 36.83 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "179"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 34.29 180)
-				(length 3.81)
-				(name "MIPI1_D0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "177"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 31.75 180)
-				(length 3.81)
-				(name "MIPI1_D0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "175"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 29.21 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "173"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -38.1 26.67 180)
-				(length 3.81)
-				(name "USB3-1-TX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "171"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -38.1 24.13 180)
-				(length 3.81)
-				(name "USB3-1-TX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "169"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 21.59 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "167"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 19.05 180)
-				(length 3.81)
-				(name "USB3-1-DM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "165"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 16.51 180)
-				(length 3.81)
-				(name "USB3-1-DP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "163"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 13.97 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "161"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 11.43 180)
-				(length 3.81)
-				(name "USB3-1-RX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "159"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 8.89 180)
-				(length 3.81)
-				(name "USB3-1-RX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "157"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 6.35 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "155"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 3.81 180)
-				(length 3.81)
-				(name "HDMI0_HOTPLUG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "153"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 1.27 180)
-				(length 3.81)
-				(name "HDMI0_CEC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "151"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 -1.27 180)
-				(length 3.81)
-				(name "HDMI1_CEC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "149"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -3.81 180)
-				(length 3.81)
-				(name "HDMI1_SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "147"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -6.35 180)
-				(length 3.81)
-				(name "HDMI1_SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "145"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 -8.89 180)
-				(length 3.81)
-				(name "HDMI1_HOTPLUG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "143"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -11.43 180)
-				(length 3.81)
-				(name "MIPI0_D3_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "141"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -13.97 180)
-				(length 3.81)
-				(name "MIPI0_D3_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "139"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 -16.51 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "137"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -19.05 180)
-				(length 3.81)
-				(name "MIPI0_D2_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "135"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -21.59 180)
-				(length 3.81)
-				(name "MIPI0_D2_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "133"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 -24.13 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "131"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -26.67 180)
-				(length 3.81)
-				(name "MIPI0_C_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "129"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -29.21 180)
-				(length 3.81)
-				(name "MIPI0_C_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "127"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 -31.75 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "125"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -34.29 180)
-				(length 3.81)
-				(name "MIPI0_D1_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "123"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -36.83 180)
-				(length 3.81)
-				(name "MIPI0_D1_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "121"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 -39.37 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "119"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -41.91 180)
-				(length 3.81)
-				(name "MIPI0_D0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "117"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -44.45 180)
-				(length 3.81)
-				(name "MIPI0_D0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "115"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 -46.99 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "113"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -38.1 -49.53 180)
-				(length 3.81)
-				(name "VBUS_EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "111"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -38.1 -52.07 180)
-				(length 3.81)
-				(name "PCIe_nRST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "109"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 -54.61 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "107"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -57.15 180)
-				(length 3.81)
-				(name "USB_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "105"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -59.69 180)
-				(length 3.81)
-				(name "USB_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "103"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 -62.23 180)
-				(length 3.81)
-				(name "USB_OTG_ID"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -38.1 -64.77 180)
-				(length 3.81)
-				(name "Shield"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SH5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 38.1 64.77 0)
+				(at -22.86 64.77 0)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -5676,7 +3782,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 62.23 0)
+				(at -22.86 62.23 0)
 				(length 3.81)
 				(name "CAM_GPIO1"
 					(effects
@@ -5694,7 +3800,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 59.69 0)
+				(at -22.86 59.69 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5712,7 +3818,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 57.15 0)
+				(at -22.86 57.15 0)
 				(length 3.81)
 				(name "CC2"
 					(effects
@@ -5730,7 +3836,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 54.61 0)
+				(at -22.86 54.61 0)
 				(length 3.81)
 				(name "CC1"
 					(effects
@@ -5748,7 +3854,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 52.07 0)
+				(at -22.86 52.07 0)
 				(length 3.81)
 				(name "PWR_Button"
 					(effects
@@ -5766,7 +3872,7 @@
 				)
 			)
 			(pin power_out line
-				(at 38.1 49.53 0)
+				(at -22.86 49.53 0)
 				(length 3.81)
 				(name "CM5_1.8V_(Output)"
 					(effects
@@ -5784,7 +3890,7 @@
 				)
 			)
 			(pin power_out line
-				(at 38.1 46.99 0)
+				(at -22.86 46.99 0)
 				(length 3.81)
 				(name "CM5_1.8V_(Output)"
 					(effects
@@ -5802,7 +3908,7 @@
 				)
 			)
 			(pin power_out line
-				(at 38.1 44.45 0)
+				(at -22.86 44.45 0)
 				(length 3.81)
 				(name "CM5_3.3V_(Output)"
 					(effects
@@ -5820,7 +3926,7 @@
 				)
 			)
 			(pin power_out line
-				(at 38.1 41.91 0)
+				(at -22.86 41.91 0)
 				(length 3.81)
 				(name "CM5_3.3V_(Output)"
 					(effects
@@ -5838,7 +3944,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 39.37 0)
+				(at -22.86 39.37 0)
 				(length 3.81)
 				(name "SDA0"
 					(effects
@@ -5856,7 +3962,7 @@
 				)
 			)
 			(pin output line
-				(at 38.1 36.83 0)
+				(at -22.86 36.83 0)
 				(length 3.81)
 				(name "SCL0"
 					(effects
@@ -5874,7 +3980,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 34.29 0)
+				(at -22.86 34.29 0)
 				(length 3.81)
 				(name "GPIO_VREF"
 					(effects
@@ -5892,7 +3998,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 31.75 0)
+				(at -22.86 31.75 0)
 				(length 3.81)
 				(name "VBAT"
 					(effects
@@ -5910,7 +4016,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 29.21 0)
+				(at -22.86 29.21 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -5928,7 +4034,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 26.67 0)
+				(at -22.86 26.67 0)
 				(length 3.81)
 				(name "SD_DAT6"
 					(effects
@@ -5946,7 +4052,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 24.13 0)
+				(at -22.86 24.13 0)
 				(length 3.81)
 				(name "SD_DAT7"
 					(effects
@@ -5964,7 +4070,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 21.59 0)
+				(at -22.86 21.59 0)
 				(length 3.81)
 				(name "SD_DAT4"
 					(effects
@@ -5982,7 +4088,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 19.05 0)
+				(at -22.86 19.05 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6000,7 +4106,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 16.51 0)
+				(at -22.86 16.51 0)
 				(length 3.81)
 				(name "SD_DAT5"
 					(effects
@@ -6018,7 +4124,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 13.97 0)
+				(at -22.86 13.97 0)
 				(length 3.81)
 				(name "SD_CMD"
 					(effects
@@ -6036,7 +4142,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 11.43 0)
+				(at -22.86 11.43 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6054,7 +4160,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 8.89 0)
+				(at -22.86 8.89 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -6072,7 +4178,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 6.35 0)
+				(at -22.86 6.35 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -6090,7 +4196,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 3.81 0)
+				(at -22.86 3.81 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -6108,7 +4214,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 1.27 0)
+				(at -22.86 1.27 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6126,7 +4232,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -1.27 0)
+				(at -22.86 -1.27 0)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -6144,7 +4250,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -3.81 0)
+				(at -22.86 -3.81 0)
 				(length 3.81)
 				(name "GPIO27"
 					(effects
@@ -6162,7 +4268,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -6.35 0)
+				(at -22.86 -6.35 0)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -6180,7 +4286,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -8.89 0)
+				(at -22.86 -8.89 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -6198,7 +4304,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -11.43 0)
+				(at -22.86 -11.43 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6216,7 +4322,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -13.97 0)
+				(at -22.86 -13.97 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -6234,7 +4340,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -16.51 0)
+				(at -22.86 -16.51 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -6252,7 +4358,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -19.05 0)
+				(at -22.86 -19.05 0)
 				(length 3.81)
 				(name "ID_SD"
 					(effects
@@ -6270,7 +4376,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -21.59 0)
+				(at -22.86 -21.59 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -6288,7 +4394,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -24.13 0)
+				(at -22.86 -24.13 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6306,7 +4412,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -26.67 0)
+				(at -22.86 -26.67 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -6324,7 +4430,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -29.21 0)
+				(at -22.86 -29.21 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -6342,7 +4448,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -31.75 0)
+				(at -22.86 -31.75 0)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -6360,7 +4466,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -34.29 0)
+				(at -22.86 -34.29 0)
 				(length 3.81)
 				(name "GPIO26"
 					(effects
@@ -6378,7 +4484,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -36.83 0)
+				(at -22.86 -36.83 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6396,7 +4502,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -39.37 0)
+				(at -22.86 -39.37 0)
 				(length 3.81)
 				(name "EEPROM_nWP"
 					(effects
@@ -6414,7 +4520,7 @@
 				)
 			)
 			(pin output line
-				(at 38.1 -41.91 0)
+				(at -22.86 -41.91 0)
 				(length 3.81)
 				(name "Ethernet_SYNC_OUT"
 					(effects
@@ -6432,7 +4538,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -44.45 0)
+				(at -22.86 -44.45 0)
 				(length 3.81)
 				(name "Fan_Tacho"
 					(effects
@@ -6450,7 +4556,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -46.99 0)
+				(at -22.86 -46.99 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6468,7 +4574,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -49.53 0)
+				(at -22.86 -49.53 0)
 				(length 3.81)
 				(name "Ethernet_Pair0_P"
 					(effects
@@ -6486,7 +4592,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -52.07 0)
+				(at -22.86 -52.07 0)
 				(length 3.81)
 				(name "Ethernet_Pair0_N"
 					(effects
@@ -6504,7 +4610,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -54.61 0)
+				(at -22.86 -54.61 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6522,7 +4628,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -57.15 0)
+				(at -22.86 -57.15 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_N"
 					(effects
@@ -6540,7 +4646,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -59.69 0)
+				(at -22.86 -59.69 0)
 				(length 3.81)
 				(name "Ethernet_Pair1_P"
 					(effects
@@ -6558,7 +4664,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -62.23 0)
+				(at -22.86 -62.23 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6576,7 +4682,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 38.1 -64.77 0)
+				(at -22.86 -64.77 0)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -6594,7 +4700,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 85.09 64.77 180)
+				(at 24.13 64.77 180)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -6612,7 +4718,7 @@
 				)
 			)
 			(pin input line
-				(at 85.09 62.23 180)
+				(at 24.13 62.23 180)
 				(length 3.81)
 				(name "PMIC_Enable"
 					(effects
@@ -6630,7 +4736,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 59.69 180)
+				(at 24.13 59.69 180)
 				(length 3.81)
 				(name "Camera_GPIO0"
 					(effects
@@ -6648,7 +4754,7 @@
 				)
 			)
 			(pin output line
-				(at 85.09 57.15 180)
+				(at 24.13 57.15 180)
 				(length 3.81)
 				(name "PI_LED_nPWR"
 					(effects
@@ -6666,7 +4772,7 @@
 				)
 			)
 			(pin input line
-				(at 85.09 54.61 180)
+				(at 24.13 54.61 180)
 				(length 3.81)
 				(name "nRPIBOOT"
 					(effects
@@ -6684,7 +4790,7 @@
 				)
 			)
 			(pin input line
-				(at 85.09 52.07 180)
+				(at 24.13 52.07 180)
 				(length 3.81)
 				(name "BT_nDisable"
 					(effects
@@ -6702,7 +4808,7 @@
 				)
 			)
 			(pin input line
-				(at 85.09 49.53 180)
+				(at 24.13 49.53 180)
 				(length 3.81)
 				(name "WL_nDisable"
 					(effects
@@ -6720,7 +4826,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 46.99 180)
+				(at 24.13 46.99 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6738,7 +4844,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 44.45 180)
+				(at 24.13 44.45 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6756,7 +4862,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 41.91 180)
+				(at 24.13 41.91 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6774,7 +4880,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 39.37 180)
+				(at 24.13 39.37 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6792,7 +4898,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 36.83 180)
+				(at 24.13 36.83 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6810,7 +4916,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 34.29 180)
+				(at 24.13 34.29 180)
 				(length 3.81)
 				(name "+5V_(Input)"
 					(effects
@@ -6828,7 +4934,7 @@
 				)
 			)
 			(pin output line
-				(at 85.09 31.75 180)
+				(at 24.13 31.75 180)
 				(length 3.81)
 				(name "SD_PWR_ON"
 					(effects
@@ -6846,7 +4952,7 @@
 				)
 			)
 			(pin input line
-				(at 85.09 29.21 180)
+				(at 24.13 29.21 180)
 				(length 3.81)
 				(name "SD_VDD_OVERRIDE"
 					(effects
@@ -6864,7 +4970,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 26.67 180)
+				(at 24.13 26.67 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6882,7 +4988,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 24.13 180)
+				(at 24.13 24.13 180)
 				(length 3.81)
 				(name "SD_DAT2"
 					(effects
@@ -6900,7 +5006,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 21.59 180)
+				(at 24.13 21.59 180)
 				(length 3.81)
 				(name "SD_DAT1"
 					(effects
@@ -6918,7 +5024,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 19.05 180)
+				(at 24.13 19.05 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6936,7 +5042,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 16.51 180)
+				(at 24.13 16.51 180)
 				(length 3.81)
 				(name "SD_DAT0"
 					(effects
@@ -6954,7 +5060,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 13.97 180)
+				(at 24.13 13.97 180)
 				(length 3.81)
 				(name "SD_DAT3"
 					(effects
@@ -6972,7 +5078,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 11.43 180)
+				(at 24.13 11.43 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -6990,7 +5096,7 @@
 				)
 			)
 			(pin output line
-				(at 85.09 8.89 180)
+				(at 24.13 8.89 180)
 				(length 3.81)
 				(name "SD_CLK"
 					(effects
@@ -7008,7 +5114,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 6.35 180)
+				(at 24.13 6.35 180)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -7026,7 +5132,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 3.81 180)
+				(at 24.13 3.81 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7044,7 +5150,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 1.27 180)
+				(at 24.13 1.27 180)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -7062,7 +5168,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -1.27 180)
+				(at 24.13 -1.27 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -7080,7 +5186,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -3.81 180)
+				(at 24.13 -3.81 180)
 				(length 3.81)
 				(name "GPIO23"
 					(effects
@@ -7098,7 +5204,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -6.35 180)
+				(at 24.13 -6.35 180)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -7116,7 +5222,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 -8.89 180)
+				(at 24.13 -8.89 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7134,7 +5240,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -11.43 180)
+				(at 24.13 -11.43 180)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -7152,7 +5258,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -13.97 180)
+				(at 24.13 -13.97 180)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -7170,7 +5276,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -16.51 180)
+				(at 24.13 -16.51 180)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -7188,7 +5294,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -19.05 180)
+				(at 24.13 -19.05 180)
 				(length 3.81)
 				(name "ID_SC"
 					(effects
@@ -7206,7 +5312,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 -21.59 180)
+				(at 24.13 -21.59 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7224,7 +5330,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -24.13 180)
+				(at 24.13 -24.13 180)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -7242,7 +5348,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -26.67 180)
+				(at 24.13 -26.67 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -7260,7 +5366,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -29.21 180)
+				(at 24.13 -29.21 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -7278,7 +5384,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -31.75 180)
+				(at 24.13 -31.75 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -7296,7 +5402,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 -34.29 180)
+				(at 24.13 -34.29 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7314,7 +5420,7 @@
 				)
 			)
 			(pin output line
-				(at 85.09 -36.83 180)
+				(at 24.13 -36.83 180)
 				(length 3.81)
 				(name "LED_nACT"
 					(effects
@@ -7332,7 +5438,7 @@
 				)
 			)
 			(pin output line
-				(at 85.09 -39.37 180)
+				(at 24.13 -39.37 180)
 				(length 3.81)
 				(name "Fan_PWM"
 					(effects
@@ -7350,7 +5456,7 @@
 				)
 			)
 			(pin output line
-				(at 85.09 -41.91 180)
+				(at 24.13 -41.91 180)
 				(length 3.81)
 				(name "Ethernet_nLED2"
 					(effects
@@ -7368,7 +5474,7 @@
 				)
 			)
 			(pin output line
-				(at 85.09 -44.45 180)
+				(at 24.13 -44.45 180)
 				(length 3.81)
 				(name "Ethernet_nLED3"
 					(effects
@@ -7386,7 +5492,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 -46.99 180)
+				(at 24.13 -46.99 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7404,7 +5510,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -49.53 180)
+				(at 24.13 -49.53 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_P"
 					(effects
@@ -7422,7 +5528,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -52.07 180)
+				(at 24.13 -52.07 180)
 				(length 3.81)
 				(name "Ethernet_Pair2_N"
 					(effects
@@ -7440,7 +5546,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 -54.61 180)
+				(at 24.13 -54.61 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7458,7 +5564,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -57.15 180)
+				(at 24.13 -57.15 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_N"
 					(effects
@@ -7476,7 +5582,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 85.09 -59.69 180)
+				(at 24.13 -59.69 180)
 				(length 3.81)
 				(name "Ethernet_Pair3_P"
 					(effects
@@ -7494,7 +5600,7 @@
 				)
 			)
 			(pin power_in line
-				(at 85.09 -62.23 180)
+				(at 24.13 -62.23 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -7512,7 +5618,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 85.09 -64.77 180)
+				(at 24.13 -64.77 180)
 				(length 3.81)
 				(name "Shield"
 					(effects
@@ -7522,6 +5628,1880 @@
 					)
 				)
 				(number "SH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RaspberryPi-CM5-Module_2_1"
+			(pin no_connect line
+				(at -22.86 64.77 0)
+				(length 3.81)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 62.23 0)
+				(length 3.81)
+				(name "HDMI0_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "200"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 59.69 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "198"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 57.15 0)
+				(length 3.81)
+				(name "MIPI1_D3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "196"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 54.61 0)
+				(length 3.81)
+				(name "MIPI1_D3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "194"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 52.07 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "192"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 49.53 0)
+				(length 3.81)
+				(name "HDMI0_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "190"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 46.99 0)
+				(length 3.81)
+				(name "HDMI0_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "188"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 44.45 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "186"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 41.91 0)
+				(length 3.81)
+				(name "HDMI0_TX0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "184"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 39.37 0)
+				(length 3.81)
+				(name "HDMI0_TX0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "182"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 36.83 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "180"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 34.29 0)
+				(length 3.81)
+				(name "HDMI0_TX1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "178"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 31.75 0)
+				(length 3.81)
+				(name "HDMI0_TX1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "176"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 29.21 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "174"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 26.67 0)
+				(length 3.81)
+				(name "HDMI0_TX2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "172"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 24.13 0)
+				(length 3.81)
+				(name "HDMI0_TX2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "170"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 21.59 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "168"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 19.05 0)
+				(length 3.81)
+				(name "HDMI1_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "166"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 16.51 0)
+				(length 3.81)
+				(name "HDMI1_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "164"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 13.97 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "162"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 11.43 0)
+				(length 3.81)
+				(name "HDMI1_TX0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "160"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 8.89 0)
+				(length 3.81)
+				(name "HDMI1_TX0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "158"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 6.35 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "156"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 3.81 0)
+				(length 3.81)
+				(name "HDMI1_TX1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "154"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 1.27 0)
+				(length 3.81)
+				(name "HDMI1_TX1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "152"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -1.27 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "150"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -3.81 0)
+				(length 3.81)
+				(name "HDMI1_TX2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "148"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -6.35 0)
+				(length 3.81)
+				(name "HDMI1_TX2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "146"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -8.89 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "144"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -11.43 0)
+				(length 3.81)
+				(name "USB3-0-TX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "142"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -13.97 0)
+				(length 3.81)
+				(name "USB3-0-TX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "140"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -16.51 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "138"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -19.05 0)
+				(length 3.81)
+				(name "USB3-0-DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "136"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -21.59 0)
+				(length 3.81)
+				(name "USB3-0-DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "134"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -24.13 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "132"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -26.67 0)
+				(length 3.81)
+				(name "USB3-0-RX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "130"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -29.21 0)
+				(length 3.81)
+				(name "USB3-0-RX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "128"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -31.75 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "126"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -34.29 0)
+				(length 3.81)
+				(name "PCIe_TX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "124"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -36.83 0)
+				(length 3.81)
+				(name "PCIe_TX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "122"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -39.37 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -41.91 0)
+				(length 3.81)
+				(name "PCIe_RX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -44.45 0)
+				(length 3.81)
+				(name "PCIe_RX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -46.99 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -49.53 0)
+				(length 3.81)
+				(name "PCIe_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "112"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -52.07 0)
+				(length 3.81)
+				(name "PCIe_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -54.61 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "108"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -57.15 0)
+				(length 3.81)
+				(name "PCIE_PWR_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "106"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -59.69 0)
+				(length 3.81)
+				(name "PCIE_nWAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "104"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -62.23 0)
+				(length 3.81)
+				(name "PCIe_CLK_nREQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -22.86 -64.77 0)
+				(length 3.81)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 24.13 64.77 180)
+				(length 3.81)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 62.23 180)
+				(length 3.81)
+				(name "HDMI0_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "199"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 59.69 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "197"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 57.15 180)
+				(length 3.81)
+				(name "MIPI1_D2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "195"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 54.61 180)
+				(length 3.81)
+				(name "MIPI1_D2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "193"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 52.07 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "191"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 49.53 180)
+				(length 3.81)
+				(name "MIPI1_C_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "189"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 46.99 180)
+				(length 3.81)
+				(name "MIPI1_C_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "187"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 44.45 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "185"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 41.91 180)
+				(length 3.81)
+				(name "MIPI1_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "183"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 39.37 180)
+				(length 3.81)
+				(name "MIPI1_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "181"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 36.83 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "179"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 34.29 180)
+				(length 3.81)
+				(name "MIPI1_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "177"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 31.75 180)
+				(length 3.81)
+				(name "MIPI1_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "175"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 29.21 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "173"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 26.67 180)
+				(length 3.81)
+				(name "USB3-1-TX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "171"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 24.13 180)
+				(length 3.81)
+				(name "USB3-1-TX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "169"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 21.59 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "167"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 19.05 180)
+				(length 3.81)
+				(name "USB3-1-DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "165"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 16.51 180)
+				(length 3.81)
+				(name "USB3-1-DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "163"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "161"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 11.43 180)
+				(length 3.81)
+				(name "USB3-1-RX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "159"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 8.89 180)
+				(length 3.81)
+				(name "USB3-1-RX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "157"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 6.35 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "155"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 3.81 180)
+				(length 3.81)
+				(name "HDMI0_HOTPLUG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "153"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 1.27 180)
+				(length 3.81)
+				(name "HDMI0_CEC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "151"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 -1.27 180)
+				(length 3.81)
+				(name "HDMI1_CEC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "149"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -3.81 180)
+				(length 3.81)
+				(name "HDMI1_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "147"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -6.35 180)
+				(length 3.81)
+				(name "HDMI1_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "145"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 -8.89 180)
+				(length 3.81)
+				(name "HDMI1_HOTPLUG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "143"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -11.43 180)
+				(length 3.81)
+				(name "MIPI0_D3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "141"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -13.97 180)
+				(length 3.81)
+				(name "MIPI0_D3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "139"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 -16.51 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "137"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -19.05 180)
+				(length 3.81)
+				(name "MIPI0_D2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "135"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -21.59 180)
+				(length 3.81)
+				(name "MIPI0_D2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "133"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 -24.13 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "131"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -26.67 180)
+				(length 3.81)
+				(name "MIPI0_C_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "129"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -29.21 180)
+				(length 3.81)
+				(name "MIPI0_C_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "127"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 -31.75 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "125"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -34.29 180)
+				(length 3.81)
+				(name "MIPI0_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "123"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -36.83 180)
+				(length 3.81)
+				(name "MIPI0_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "121"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 -39.37 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -41.91 180)
+				(length 3.81)
+				(name "MIPI0_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -44.45 180)
+				(length 3.81)
+				(name "MIPI0_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "115"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 -46.99 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -49.53 180)
+				(length 3.81)
+				(name "VBUS_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -52.07 180)
+				(length 3.81)
+				(name "PCIe_nRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "109"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 24.13 -54.61 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "107"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -57.15 180)
+				(length 3.81)
+				(name "USB_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "105"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -59.69 180)
+				(length 3.81)
+				(name "USB_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24.13 -62.23 180)
+				(length 3.81)
+				(name "USB_OTG_ID"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 24.13 -64.77 180)
+				(length 3.81)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH5"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1,0 +1,1 @@
+Multiple Connector footprints will be added for CM4S sodimm sockets. The table for what part numbers are compatible with what footprints will be located here. So far 1473149-4 is compatible with the T1 footprint. 
