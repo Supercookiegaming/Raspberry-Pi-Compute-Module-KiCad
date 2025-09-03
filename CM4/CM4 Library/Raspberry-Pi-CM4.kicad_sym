@@ -7550,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Raspberry Pi CM4S Carrier"
+		(property "Description" "Raspberry Pi CM4S Carrier. Use 1473149-4 for T1 footprints."
 			(at 0 0 0)
 			(effects
 				(font

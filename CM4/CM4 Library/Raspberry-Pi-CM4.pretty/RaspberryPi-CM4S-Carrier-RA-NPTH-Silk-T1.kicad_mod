@@ -54,6 +54,86 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -35.75 -5.5)
+		(end 35.75 -5.5)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2729826e-dd6d-4bfd-9aa1-5cec594dd9e4")
+	)
+	(fp_line
+		(start -35.75 20)
+		(end -35.75 -5.5)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca5bfd06-f537-449e-a3bc-e8146d84e2a5")
+	)
+	(fp_line
+		(start -33.8 20)
+		(end -35.75 20)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fbeea940-5bf9-4c75-a196-5a646632b836")
+	)
+	(fp_line
+		(start -33.8 31)
+		(end -33.8 20)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "32ab06a4-6f6d-42b5-8519-05d4be28cbf8")
+	)
+	(fp_line
+		(start -33.8 31)
+		(end 33.8 31)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9efa7d16-0faa-40e2-89fa-89f5987d7b98")
+	)
+	(fp_line
+		(start 33.8 20)
+		(end 35.75 20)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d1f4cbd-0f12-437e-a573-40fe920282d5")
+	)
+	(fp_line
+		(start 33.8 31)
+		(end 33.8 20)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "403940d5-8c6e-4071-b81a-6510bd19439e")
+	)
+	(fp_line
+		(start 35.75 -5.5)
+		(end 35.75 20)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e26c0d27-8449-4df6-b879-43ad2fdb96f0")
+	)
 	(fp_circle
 		(center -30.8 27)
 		(end -28.975 27)
@@ -1355,4 +1435,15 @@
 		(uuid "c1f6179d-cfb4-40d7-a3e8-3bc0eb018596")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/CM4/CM4 Library/Raspberry-Pi-CM4-3D-Models/1473149-4.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
