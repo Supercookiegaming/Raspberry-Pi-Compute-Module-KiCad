@@ -105,19 +105,20 @@ This library is designed for use in KiCad 9 versions only.
 
 | Tasks | Status | Version Milestone |
 |-------|--------|--------|
-|**CM1 Library**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.8**|
+|**CM1 Library**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.4**|
 |**CM1 Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.9**|
-|**CM3 & CM3+ Libarary**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.6**|
-|**CM3 & CM3+ Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.7**|
+|**CM3 & CM3+ Libarary**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.3**|
+|**CM3 & CM3+ Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.8**|
 |**CM4 Library**|![Completed](https://img.shields.io/badge/status-Completed-brightgreen) |**v0.1**|
-|**CM4 Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.3**|
-|**CM4S Library**|![Partially Complete](https://img.shields.io/badge/status-Partially%20Complete-green) |**v0.2**|
-|**CM4S Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.5**|
+|**CM4 Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.5**|
+|**CM4S Library**|![Partially Complete](https://img.shields.io/badge/status-Completed-brightgreen) |**v0.2**|
+|**CM4S Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.7**|
 |**CM5 Library**|![Completed](https://img.shields.io/badge/status-Completed-brightgreen) |**v0.1**|
-|**CM5 Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.4**|
+|**CM5 Templates**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v0.6**|
+|**Alternative Footprints**|![Planned](https://img.shields.io/badge/status-planned-blue) |**v1.0**|
 
 | Bugs | Issue | Status| Version Milestone | Branch |
 |-------|--------|--------|--------|--------|
-|**Mislabled MIPI Pins**| [Issue #9](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/issues/9) |![Fixed in Branch](https://img.shields.io/badge/status-Fixed%20in%20Branch-green) | v0.2 | v0.2 |
+|**Mislabled MIPI Pins**| [Issue #9](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/issues/9) |![Fixed in Branch](https://img.shields.io/badge/status-Fixed-brightgreen) | v0.2 | v0.2 |
 
 ###### *not implemented yet
