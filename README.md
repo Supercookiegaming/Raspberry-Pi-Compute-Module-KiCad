@@ -1,7 +1,7 @@
 # Raspberry Pi Compute Module Library for KiCad
 ![Development Status](https://img.shields.io/badge/status-Partially%20Complete-green)
 ## Overview
-This repository is designed to provide KiCad users the tools needed to create Raspberry Pi Compute Module carrier boards and compatible compute modules. This library includes symbols, footprints, 3D models and templates* for RPi compute modules. Please follow instructions below to ensure internal library refrences are setup correctly.
+This repository is designed to provide KiCad users the tools needed to create Raspberry Pi Compute Module carrier boards and compatible compute modules. This library includes symbols, footprints, 3D models and templates for RPi compute modules. Please follow install instructions below to ensure internal library refrences are setup correctly.
 
 This library is designed for use in KiCad 9 versions only. 
 
@@ -120,5 +120,3 @@ This library is designed for use in KiCad 9 versions only.
 | Bugs | Issue | Status| Version Milestone | Branch |
 |-------|--------|--------|--------|--------|
 |**Mislabled MIPI Pins**| [Issue #9](https://github.com/Supercookiegaming/Raspberry-Pi-Compute-Module-KiCad/issues/9) |![Fixed in Branch](https://img.shields.io/badge/status-Fixed-brightgreen) | v0.2 | v0.2 |
-
-###### *not implemented yet
